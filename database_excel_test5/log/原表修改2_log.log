@@ -1,0 +1,137 @@
+2022-05-19 21:06:39.308 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                                          
+课程目标1         0.06  0.12   0.0  0.42          0.2          0.2
+课程目标2         0.06   0.0  0.18  0.36          0.2          0.2
+课程目标3         0.06  0.18   0.0  0.36          0.2          0.2
+课程目标4         0.06  0.12  0.12   0.3          0.2          0.2
+2022-05-19 21:06:39.512 | DEBUG    | src.function:get_class_id:63 - 班级-学号处理异常
+2022-05-19 21:06:39.512 | ERROR    | src.function:get_class_id:64 - '总分'
+Traceback (most recent call last):
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+           │    │               └ '总分'
+           │    └ <pandas._libs.properties.CachedProperty object at 0x000001BDB0CC2700>
+           └ Index(['参数设置', 'Unnamed: 1', 'Unnamed: 2', '第一大题', 'Unnamed: 4', 'Unnamed: 5',
+                    'Unnamed: 6', 'Unnamed: 7', '第二大题', 'Un...
+
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+
+KeyError: '总分'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/database_excel_test/src/main.py", line 18, in <module>
+    class_id, everyclass_student, student_id, sheet_name, k, df_param, df_score = get_info.operate_id(df_test_weight, file)
+                                              │                                   │        │          │               └ '..\\data\\原表修改2.xls'
+                                              │                                   │        │          └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                              │                                   │        │            课程目标达成情况评价报告                        
+                                              │                                   │        │            随堂测验           0.1   0.1   0.1   0.1
+                                              │                                   │        │            作业            ...
+                                              │                                   │        └ <function operate_id at 0x000001BDB3C798B0>
+                                              │                                   └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\database_excel_test\\src\\get_info.py'>
+                                              └ ['..\\data\\原表修改2.xls']
+
+  File "E:\python\2021.9.17\database_excel_test\src\get_info.py", line 93, in operate_id
+    class_id, everyclass_student, student_id, sheet_name, k, df_param, df_score = function.get_class_id(df_test_weight.index, sheet)
+                                                                                  │        │            │              │      └ '..\\data\\原表修改2.xls'
+                                                                                  │        │            │              └ <pandas._libs.properties.AxisProperty object at 0x000001BDB18AF400>
+                                                                                  │        │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                                  │        │              课程目标达成情况评价报告                        
+                                                                                  │        │              随堂测验           0.1   0.1   0.1   0.1
+                                                                                  │        │              作业            ...
+                                                                                  │        └ <function get_class_id at 0x000001BDB3C718B0>
+                                                                                  └ <module 'src.function' from 'E:\\python\\2021.9.17\\database_excel_test\\src\\function.py'>
+
+> File "E:\python\2021.9.17\database_excel_test\src\function.py", line 60, in get_class_id
+    df_param, df_score = operate_exam(df_sheet, index_axis, student_id)
+                         │            │         │           └ [66652645, 66666664, 66662208, 66662209, 66662210, 66662211, 66662212, 66662213, 66662214, 66662215, 66662216, 66662217, 6666...
+                         │            │         └ 7
+                         │            └        参数设置 Unnamed: 1 Unnamed: 2  ... Unnamed: 22  Unnamed: 23  Unnamed: 24
+                         │              0       NaN        NaN        NaN  ...         N...
+                         └ <function operate_exam at 0x000001BDB1CDBCA0>
+
+  File "E:\python\2021.9.17\database_excel_test\src\function.py", line 16, in operate_exam
+    df_param = df_sheet.loc[:index_axis, '参数设置':'总分'].drop(index=index_axis, columns='总分')
+               │        │    │                                   └ 7
+               │        │    └ 7
+               │        └ <property object at 0x000001BDB167F720>
+               └        参数设置 Unnamed: 1 Unnamed: 2  ... Unnamed: 22  Unnamed: 23  Unnamed: 24
+                 0       NaN        NaN        NaN  ...         N...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 889, in __getitem__
+    return self._getitem_tuple(key)
+           │    │              └ (slice(None, 7, None), slice('参数设置', '总分', None))
+           │    └ <function _LocIndexer._getitem_tuple at 0x000001BDB1685700>
+           └ <pandas.core.indexing._LocIndexer object at 0x000001BDB29174F0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1069, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           │    │                       └ (slice(None, 7, None), slice('参数设置', '总分', None))
+           │    └ <function _LocationIndexer._getitem_tuple_same_dim at 0x000001BDB167AD30>
+           └ <pandas.core.indexing._LocIndexer object at 0x000001BDB29174F0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 775, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+                     │       │    │                   │         └ 1
+                     │       │    │                   └ slice('参数设置', '总分', None)
+                     │       │    └ <attribute 'name' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+                     │       └ <pandas.core.indexing._LocIndexer object at 0x000001BDB29174F0>
+                     └   参数设置 Unnamed: 1 Unnamed: 2  ... Unnamed: 22  Unnamed: 23  Unnamed: 24
+                       0  NaN        NaN        NaN  ...         NaN        ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1102, in _getitem_axis
+    return self._get_slice_axis(key, axis=axis)
+           │    │               │         └ 1
+           │    │               └ slice('参数设置', '总分', None)
+           │    └ <function _LocIndexer._get_slice_axis at 0x000001BDB1685940>
+           └ <pandas.core.indexing._LocIndexer object at 0x000001BDB4117CC0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1136, in _get_slice_axis
+    indexer = labels.slice_indexer(
+              │      └ <function Index.slice_indexer at 0x000001BDB0CCFC10>
+              └ Index(['参数设置', 'Unnamed: 1', 'Unnamed: 2', '第一大题', 'Unnamed: 4', 'Unnamed: 5',
+                       'Unnamed: 6', 'Unnamed: 7', '第二大题', 'Un...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5277, in slice_indexer
+    start_slice, end_slice = self.slice_locs(start, end, step=step, kind=kind)
+                             │    │          │      │         │          └ 'loc'
+                             │    │          │      │         └ None
+                             │    │          │      └ '总分'
+                             │    │          └ '参数设置'
+                             │    └ <function Index.slice_locs at 0x000001BDB0CCFF70>
+                             └ Index(['参数设置', 'Unnamed: 1', 'Unnamed: 2', '第一大题', 'Unnamed: 4', 'Unnamed: 5',
+                                      'Unnamed: 6', 'Unnamed: 7', '第二大题', 'Un...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5482, in slice_locs
+    end_slice = self.get_slice_bound(end, "right", kind)
+                │    │               │             └ 'loc'
+                │    │               └ '总分'
+                │    └ <function Index.get_slice_bound at 0x000001BDB0CCFEE0>
+                └ Index(['参数设置', 'Unnamed: 1', 'Unnamed: 2', '第一大题', 'Unnamed: 4', 'Unnamed: 5',
+                         'Unnamed: 6', 'Unnamed: 7', '第二大题', 'Un...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5396, in get_slice_bound
+    raise err
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5390, in get_slice_bound
+    slc = self.get_loc(label)
+          │    │       └ '总分'
+          │    └ <function Index.get_loc at 0x000001BDB0CCC430>
+          └ Index(['参数设置', 'Unnamed: 1', 'Unnamed: 2', '第一大题', 'Unnamed: 4', 'Unnamed: 5',
+                   'Unnamed: 6', 'Unnamed: 7', '第二大题', 'Un...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+                   └ '总分'
+
+KeyError: '总分'
