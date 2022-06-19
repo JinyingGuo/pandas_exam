@@ -1,0 +1,1485 @@
+2022-06-15 21:27:07.762 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+考核方式                                         
+课程目标1          0.32    0.0   0.32  0.16   0.2
+课程目标2          0.32    0.0   0.32  0.16   0.2
+课程目标3         0.192   0.32  0.128  0.16   0.2
+课程目标4           0.0  0.256  0.384  0.16   0.2
+2022-06-15 21:27:08.133 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.696  0.718  0.570
+20152878  0.800  0.652  0.729  0.558
+20162503  1.000  0.968  0.952  0.949
+20162504  0.936  0.888  0.796  0.779
+20162505  0.800  1.000  0.962  0.888
+20162506  0.600  0.856  0.791  0.949
+20162507  0.936  0.856  0.770  0.917
+20162508  1.000  0.864  0.915  0.949
+20162509  1.000  0.732  0.743  0.898
+20162511  0.936  0.864  0.920  0.949
+20162512  1.000  0.760  0.802  0.923
+20162513  1.000  0.896  0.892  0.626
+20162514  0.936  0.888  0.834  0.923
+20162515  0.936  0.968  0.805  0.877
+20162516  0.800  0.684  0.749  0.590
+20162517  1.000  0.792  0.835  0.923
+20162518  0.800  0.864  0.867  0.872
+20162519  0.936  0.760  0.807  0.923
+20162520  0.936  0.968  0.935  0.968
+20162522  0.800  0.696  0.743  0.923
+20162523  1.000  0.856  0.808  0.718
+20162524  1.000  0.832  0.882  0.851
+20162526  0.800  0.760  0.840  0.949
+20162527  1.000  0.824  0.824  0.898
+20162528  0.936  0.824  0.840  0.923
+20162529  0.800  0.864  0.914  0.872
+20162530  0.936  0.896  0.920  0.949
+20162531  1.000  0.896  0.952  0.898
+20162532  0.800  0.832  0.898  0.949
+20162533  1.000  0.824  0.781  0.872
+20162534  1.000  0.824  0.834  0.923
+20162536  0.936  0.968  0.983  1.000
+20162538  0.936  0.928  0.807  0.891
+20162539  0.936  1.000  0.989  0.923
+20162540  0.800  0.840  0.913  0.872
+20162541  0.936  0.896  0.860  0.851
+20162542  1.000  0.896  0.830  0.749
+20162543  1.000  0.796  0.776  0.795
+20162544  0.800  0.888  0.845  0.826
+平均值       0.917  0.849  0.848  0.863
+2022-06-15 21:27:08.149 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   22.0   16.0   28.0
+单项目标达成人数        38   35.0   39.0   35.0
+单项目标未达成人数        1    4.0    0.0    4.0
+所有目标超过平均值人数      8    NaN    NaN    NaN
+所有目标均达成人数       33    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 21:27:08.149 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+单项目标达成人数     97.44%  89.74%  100.00%  89.74%
+单项目标未达成人数     2.56%  10.26%    0.00%  10.26%
+2022-06-15 21:27:08.149 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    20.51%
+所有目标均达成人数      84.62%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 21:28:29.065 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+考核方式                                         
+课程目标1          0.32    0.0   0.32  0.16   0.2
+课程目标2          0.32    0.0   0.32  0.16   0.2
+课程目标3         0.192   0.32  0.128  0.16   0.2
+课程目标4           0.0  0.256  0.384  0.16   0.2
+2022-06-15 21:28:29.335 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.696  0.718  0.570
+20152878  0.800  0.652  0.729  0.558
+20162503  1.000  0.968  0.952  0.949
+20162504  0.936  0.888  0.796  0.779
+20162505  0.800  1.000  0.962  0.888
+20162506  0.600  0.856  0.791  0.949
+20162507  0.936  0.856  0.770  0.917
+20162508  1.000  0.864  0.915  0.949
+20162509  1.000  0.732  0.743  0.898
+20162511  0.936  0.864  0.920  0.949
+20162512  1.000  0.760  0.802  0.923
+20162513  1.000  0.896  0.892  0.626
+20162514  0.936  0.888  0.834  0.923
+20162515  0.936  0.968  0.805  0.877
+20162516  0.800  0.684  0.749  0.590
+20162517  1.000  0.792  0.835  0.923
+20162518  0.800  0.864  0.867  0.872
+20162519  0.936  0.760  0.807  0.923
+20162520  0.936  0.968  0.935  0.968
+20162522  0.800  0.696  0.743  0.923
+20162523  1.000  0.856  0.808  0.718
+20162524  1.000  0.832  0.882  0.851
+20162526  0.800  0.760  0.840  0.949
+20162527  1.000  0.824  0.824  0.898
+20162528  0.936  0.824  0.840  0.923
+20162529  0.800  0.864  0.914  0.872
+20162530  0.936  0.896  0.920  0.949
+20162531  1.000  0.896  0.952  0.898
+20162532  0.800  0.832  0.898  0.949
+20162533  1.000  0.824  0.781  0.872
+20162534  1.000  0.824  0.834  0.923
+20162536  0.936  0.968  0.983  1.000
+20162538  0.936  0.928  0.807  0.891
+20162539  0.936  1.000  0.989  0.923
+20162540  0.800  0.840  0.913  0.872
+20162541  0.936  0.896  0.860  0.851
+20162542  1.000  0.896  0.830  0.749
+20162543  1.000  0.796  0.776  0.795
+20162544  0.800  0.888  0.845  0.826
+平均值       0.917  0.849  0.848  0.863
+2022-06-15 21:28:29.335 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   22.0   16.0   28.0
+单项目标达成人数        38   35.0   39.0   35.0
+单项目标未达成人数        1    4.0    0.0    4.0
+所有目标超过平均值人数      8    NaN    NaN    NaN
+所有目标均达成人数       33    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 21:28:29.335 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+单项目标达成人数     97.44%  89.74%  100.00%  89.74%
+单项目标未达成人数     2.56%  10.26%    0.00%  10.26%
+2022-06-15 21:28:29.351 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    20.51%
+所有目标均达成人数      84.62%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 21:29:17.986 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+考核方式                                         
+课程目标1          0.32    0.0   0.32  0.16   0.2
+课程目标2          0.32    0.0   0.32  0.16   0.2
+课程目标3         0.192   0.32  0.128  0.16   0.2
+课程目标4           0.0  0.256  0.384  0.16   0.2
+2022-06-15 21:29:18.300 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.696  0.718  0.570
+20152878  0.800  0.652  0.729  0.558
+20162503  1.000  0.968  0.952  0.949
+20162504  0.936  0.888  0.796  0.779
+20162505  0.800  1.000  0.962  0.888
+20162506  0.600  0.856  0.791  0.949
+20162507  0.936  0.856  0.770  0.917
+20162508  1.000  0.864  0.915  0.949
+20162509  1.000  0.732  0.743  0.898
+20162511  0.936  0.864  0.920  0.949
+20162512  1.000  0.760  0.802  0.923
+20162513  1.000  0.896  0.892  0.626
+20162514  0.936  0.888  0.834  0.923
+20162515  0.936  0.968  0.805  0.877
+20162516  0.800  0.684  0.749  0.590
+20162517  1.000  0.792  0.835  0.923
+20162518  0.800  0.864  0.867  0.872
+20162519  0.936  0.760  0.807  0.923
+20162520  0.936  0.968  0.935  0.968
+20162522  0.800  0.696  0.743  0.923
+20162523  1.000  0.856  0.808  0.718
+20162524  1.000  0.832  0.882  0.851
+20162526  0.800  0.760  0.840  0.949
+20162527  1.000  0.824  0.824  0.898
+20162528  0.936  0.824  0.840  0.923
+20162529  0.800  0.864  0.914  0.872
+20162530  0.936  0.896  0.920  0.949
+20162531  1.000  0.896  0.952  0.898
+20162532  0.800  0.832  0.898  0.949
+20162533  1.000  0.824  0.781  0.872
+20162534  1.000  0.824  0.834  0.923
+20162536  0.936  0.968  0.983  1.000
+20162538  0.936  0.928  0.807  0.891
+20162539  0.936  1.000  0.989  0.923
+20162540  0.800  0.840  0.913  0.872
+20162541  0.936  0.896  0.860  0.851
+20162542  1.000  0.896  0.830  0.749
+20162543  1.000  0.796  0.776  0.795
+20162544  0.800  0.888  0.845  0.826
+平均值       0.917  0.849  0.848  0.863
+2022-06-15 21:29:18.306 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   22.0   16.0   28.0
+单项目标达成人数        38   35.0   39.0   35.0
+单项目标未达成人数        1    4.0    0.0    4.0
+所有目标超过平均值人数      8    NaN    NaN    NaN
+所有目标均达成人数       33    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 21:29:18.308 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+单项目标达成人数     97.44%  89.74%  100.00%  89.74%
+单项目标未达成人数     2.56%  10.26%    0.00%  10.26%
+2022-06-15 21:29:18.310 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    20.51%
+所有目标均达成人数      84.62%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 21:29:20.994 | ERROR    | src.to_excel:final_data_to_excel:179 - Sheet named '达成度散点图' already present in workbook
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001B008FF1940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3 课程目标4
+                                          │        │           │                  │                    学生学号                                 
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.971   nan
+                                          │        │           │                  │                    20152878.0...
+                                          │        │           │                  └ [            1     2     3  4   5   6    7    8      9
+                                          │        │           │                    学生学号                                                 
+                                          │        │           │                    20152516.0  5  1...
+                                          │        │           └ [       1     2     3  4   5   6  7  8  9
+                                          │        │             题号                                      
+                                          │        │             小题分数   5  10.0  35.0  5  10  15  0  0  0
+                                          │        │             课...
+                                          │        └ <function write_excel at 0x000001B0063DBC10>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 30, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    20.51%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      84.62%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  89.74%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   22.0   16.0   28.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   35.0   39.0   35.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.696  0.718  0.570
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.652  0.729  0.558
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.3     0
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                         
+                │                   │   │                │           │                  课程目标1          0.32    0.0   0.32...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+                └ <function final_data_to_excel at 0x000001B008FEE8B0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 139, in final_data_to_excel
+    wb.sheets.add('达成度散点图', after=str(df_index_values[-1]))
+    │  │                              └ ['教师评价', '学生自评']
+    │  └ <property object at 0x000001B008755590>
+    └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\xlwings\main.py", line 4930, in add
+    raise ValueError("Sheet named '%s' already present in workbook" % name)
+                                                                      └ '达成度散点图'
+
+ValueError: Sheet named '达成度散点图' already present in workbook
+2022-06-15 21:29:22.891 | ERROR    | src.to_excel:plt_to_excel:308 - unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 0    0.64
+                                                                    │        │             │               │     │                │            1    0.16
+                                                                    │        │             │               │     │                │            2     0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001B008FF1940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 118, in operate_sheet
+    function.diagram(final_target_achieve, student_id, df_weight, new_path, start_col)
+    │        │       │                     │           │          │         └ None
+    │        │       │                     │           │          └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │       │                     │           └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+    │        │       │                     │             考核方式                                         
+    │        │       │                     │             课程目标1          0.32    0.0   0.32...
+    │        │       │                     └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+    │        │       └           课程目标1  课程目标2  课程目标3  课程目标4
+    │        │         20152516  1.000  0.696  0.718  0.570
+    │        │         20152878  0.800  0.652  0.729  0.558
+    │        │         20162503  1.00...
+    │        └ <function diagram at 0x000001B008FF1700>
+    └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 437, in diagram
+    to_excel.plt_to_excel(fig, sheet, str(i) + "达成度散点图", start_col, start_idx)
+    │        │            │    │          │              │          └ 6
+    │        │            │    │          │              └ None
+    │        │            │    │          └ '课程目标1'
+    │        │            │    └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │            └ <Figure size 640x480 with 1 Axes>
+    │        └ <function plt_to_excel at 0x000001B008FEEAF0>
+    └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 301, in plt_to_excel
+    sht.pictures.add(figure, name=target_name, left=sht[start_idx, start_col+2].left, top=sht[start_idx, start_col+2].top)
+    │   │            │            │                 │   │          │                      │   │          └ None
+    │   │            │            │                 │   │          │                      │   └ 6
+    │   │            │            │                 │   │          │                      └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            │                 │   │          └ None
+    │   │            │            │                 │   └ 6
+    │   │            │            │                 └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            └ '课程目标1达成度散点图'
+    │   │            └ <Figure size 640x480 with 1 Axes>
+    │   └ <property object at 0x000001B008755A40>
+    └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+2022-06-15 21:29:23.561 | ERROR    | src.to_excel:plt_to_excel:308 - unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 0    0.64
+                                                                    │        │             │               │     │                │            1    0.16
+                                                                    │        │             │               │     │                │            2     0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001B008FF1940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 118, in operate_sheet
+    function.diagram(final_target_achieve, student_id, df_weight, new_path, start_col)
+    │        │       │                     │           │          │         └ None
+    │        │       │                     │           │          └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │       │                     │           └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+    │        │       │                     │             考核方式                                         
+    │        │       │                     │             课程目标1          0.32    0.0   0.32...
+    │        │       │                     └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+    │        │       └           课程目标1  课程目标2  课程目标3  课程目标4
+    │        │         20152516  1.000  0.696  0.718  0.570
+    │        │         20152878  0.800  0.652  0.729  0.558
+    │        │         20162503  1.00...
+    │        └ <function diagram at 0x000001B008FF1700>
+    └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 437, in diagram
+    to_excel.plt_to_excel(fig, sheet, str(i) + "达成度散点图", start_col, start_idx)
+    │        │            │    │          │              │          └ 31
+    │        │            │    │          │              └ None
+    │        │            │    │          └ '课程目标2'
+    │        │            │    └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │            └ <Figure size 640x480 with 1 Axes>
+    │        └ <function plt_to_excel at 0x000001B008FEEAF0>
+    └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 301, in plt_to_excel
+    sht.pictures.add(figure, name=target_name, left=sht[start_idx, start_col+2].left, top=sht[start_idx, start_col+2].top)
+    │   │            │            │                 │   │          │                      │   │          └ None
+    │   │            │            │                 │   │          │                      │   └ 31
+    │   │            │            │                 │   │          │                      └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            │                 │   │          └ None
+    │   │            │            │                 │   └ 31
+    │   │            │            │                 └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            └ '课程目标2达成度散点图'
+    │   │            └ <Figure size 640x480 with 1 Axes>
+    │   └ <property object at 0x000001B008755A40>
+    └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+2022-06-15 21:29:24.228 | ERROR    | src.to_excel:plt_to_excel:308 - unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 0    0.64
+                                                                    │        │             │               │     │                │            1    0.16
+                                                                    │        │             │               │     │                │            2     0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001B008FF1940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 118, in operate_sheet
+    function.diagram(final_target_achieve, student_id, df_weight, new_path, start_col)
+    │        │       │                     │           │          │         └ None
+    │        │       │                     │           │          └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │       │                     │           └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+    │        │       │                     │             考核方式                                         
+    │        │       │                     │             课程目标1          0.32    0.0   0.32...
+    │        │       │                     └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+    │        │       └           课程目标1  课程目标2  课程目标3  课程目标4
+    │        │         20152516  1.000  0.696  0.718  0.570
+    │        │         20152878  0.800  0.652  0.729  0.558
+    │        │         20162503  1.00...
+    │        └ <function diagram at 0x000001B008FF1700>
+    └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 437, in diagram
+    to_excel.plt_to_excel(fig, sheet, str(i) + "达成度散点图", start_col, start_idx)
+    │        │            │    │          │              │          └ 56
+    │        │            │    │          │              └ None
+    │        │            │    │          └ '课程目标3'
+    │        │            │    └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │            └ <Figure size 640x480 with 1 Axes>
+    │        └ <function plt_to_excel at 0x000001B008FEEAF0>
+    └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 301, in plt_to_excel
+    sht.pictures.add(figure, name=target_name, left=sht[start_idx, start_col+2].left, top=sht[start_idx, start_col+2].top)
+    │   │            │            │                 │   │          │                      │   │          └ None
+    │   │            │            │                 │   │          │                      │   └ 56
+    │   │            │            │                 │   │          │                      └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            │                 │   │          └ None
+    │   │            │            │                 │   └ 56
+    │   │            │            │                 └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            └ '课程目标3达成度散点图'
+    │   │            └ <Figure size 640x480 with 1 Axes>
+    │   └ <property object at 0x000001B008755A40>
+    └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+2022-06-15 21:29:24.923 | ERROR    | src.to_excel:plt_to_excel:308 - unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 0    0.64
+                                                                    │        │             │               │     │                │            1    0.16
+                                                                    │        │             │               │     │                │            2     0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001B008FF1940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 118, in operate_sheet
+    function.diagram(final_target_achieve, student_id, df_weight, new_path, start_col)
+    │        │       │                     │           │          │         └ None
+    │        │       │                     │           │          └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │       │                     │           └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+    │        │       │                     │             考核方式                                         
+    │        │       │                     │             课程目标1          0.32    0.0   0.32...
+    │        │       │                     └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+    │        │       └           课程目标1  课程目标2  课程目标3  课程目标4
+    │        │         20152516  1.000  0.696  0.718  0.570
+    │        │         20152878  0.800  0.652  0.729  0.558
+    │        │         20162503  1.00...
+    │        └ <function diagram at 0x000001B008FF1700>
+    └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 437, in diagram
+    to_excel.plt_to_excel(fig, sheet, str(i) + "达成度散点图", start_col, start_idx)
+    │        │            │    │          │              │          └ 81
+    │        │            │    │          │              └ None
+    │        │            │    │          └ '课程目标4'
+    │        │            │    └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │            └ <Figure size 640x480 with 1 Axes>
+    │        └ <function plt_to_excel at 0x000001B008FEEAF0>
+    └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 301, in plt_to_excel
+    sht.pictures.add(figure, name=target_name, left=sht[start_idx, start_col+2].left, top=sht[start_idx, start_col+2].top)
+    │   │            │            │                 │   │          │                      │   │          └ None
+    │   │            │            │                 │   │          │                      │   └ 81
+    │   │            │            │                 │   │          │                      └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            │                 │   │          └ None
+    │   │            │            │                 │   └ 81
+    │   │            │            │                 └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            └ '课程目标4达成度散点图'
+    │   │            └ <Figure size 640x480 with 1 Axes>
+    │   └ <property object at 0x000001B008755A40>
+    └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+2022-06-15 21:31:56.722 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+考核方式                                         
+课程目标1          0.32    0.0   0.32  0.16   0.2
+课程目标2          0.32    0.0   0.32  0.16   0.2
+课程目标3         0.192   0.32  0.128  0.16   0.2
+课程目标4           0.0  0.256  0.384  0.16   0.2
+2022-06-15 21:31:57.047 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.696  0.718  0.570
+20152878  0.800  0.652  0.729  0.558
+20162503  1.000  0.968  0.952  0.949
+20162504  0.936  0.888  0.796  0.779
+20162505  0.800  1.000  0.962  0.888
+20162506  0.600  0.856  0.791  0.949
+20162507  0.936  0.856  0.770  0.917
+20162508  1.000  0.864  0.915  0.949
+20162509  1.000  0.732  0.743  0.898
+20162511  0.936  0.864  0.920  0.949
+20162512  1.000  0.760  0.802  0.923
+20162513  1.000  0.896  0.892  0.626
+20162514  0.936  0.888  0.834  0.923
+20162515  0.936  0.968  0.805  0.877
+20162516  0.800  0.684  0.749  0.590
+20162517  1.000  0.792  0.835  0.923
+20162518  0.800  0.864  0.867  0.872
+20162519  0.936  0.760  0.807  0.923
+20162520  0.936  0.968  0.935  0.968
+20162522  0.800  0.696  0.743  0.923
+20162523  1.000  0.856  0.808  0.718
+20162524  1.000  0.832  0.882  0.851
+20162526  0.800  0.760  0.840  0.949
+20162527  1.000  0.824  0.824  0.898
+20162528  0.936  0.824  0.840  0.923
+20162529  0.800  0.864  0.914  0.872
+20162530  0.936  0.896  0.920  0.949
+20162531  1.000  0.896  0.952  0.898
+20162532  0.800  0.832  0.898  0.949
+20162533  1.000  0.824  0.781  0.872
+20162534  1.000  0.824  0.834  0.923
+20162536  0.936  0.968  0.983  1.000
+20162538  0.936  0.928  0.807  0.891
+20162539  0.936  1.000  0.989  0.923
+20162540  0.800  0.840  0.913  0.872
+20162541  0.936  0.896  0.860  0.851
+20162542  1.000  0.896  0.830  0.749
+20162543  1.000  0.796  0.776  0.795
+20162544  0.800  0.888  0.845  0.826
+平均值       0.917  0.849  0.848  0.863
+2022-06-15 21:31:57.062 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   22.0   16.0   28.0
+单项目标达成人数        38   35.0   39.0   35.0
+单项目标未达成人数        1    4.0    0.0    4.0
+所有目标超过平均值人数      8    NaN    NaN    NaN
+所有目标均达成人数       33    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 21:31:57.063 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+单项目标达成人数     97.44%  89.74%  100.00%  89.74%
+单项目标未达成人数     2.56%  10.26%    0.00%  10.26%
+2022-06-15 21:31:57.066 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    20.51%
+所有目标均达成人数      84.62%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 21:31:59.079 | ERROR    | src.to_excel:final_data_to_excel:179 - Sheet named '达成度散点图' already present in workbook
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001BA4BED1940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3 课程目标4
+                                          │        │           │                  │                    学生学号                                 
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.971   nan
+                                          │        │           │                  │                    20152878.0...
+                                          │        │           │                  └ [            1     2     3  4   5   6    7    8      9
+                                          │        │           │                    学生学号                                                 
+                                          │        │           │                    20152516.0  5  1...
+                                          │        │           └ [       1     2     3  4   5   6  7  8  9
+                                          │        │             题号                                      
+                                          │        │             小题分数   5  10.0  35.0  5  10  15  0  0  0
+                                          │        │             课...
+                                          │        └ <function write_excel at 0x000001BA4929BC10>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 30, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    20.51%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      84.62%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  89.74%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   22.0   16.0   28.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   35.0   39.0   35.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.696  0.718  0.570
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.652  0.729  0.558
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.3     0
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                         
+                │                   │   │                │           │                  课程目标1          0.32    0.0   0.32...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+                └ <function final_data_to_excel at 0x000001BA4BECF8B0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 139, in final_data_to_excel
+    wb.sheets.add('达成度散点图', after=str(df_index_values[-1]))
+    │  │                              └ ['教师评价', '学生自评']
+    │  └ <property object at 0x000001BA4B5E54F0>
+    └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\xlwings\main.py", line 4930, in add
+    raise ValueError("Sheet named '%s' already present in workbook" % name)
+                                                                      └ '达成度散点图'
+
+ValueError: Sheet named '达成度散点图' already present in workbook
+2022-06-15 21:33:33.024 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+考核方式                                         
+课程目标1          0.32    0.0   0.32  0.16   0.2
+课程目标2          0.32    0.0   0.32  0.16   0.2
+课程目标3         0.192   0.32  0.128  0.16   0.2
+课程目标4           0.0  0.256  0.384  0.16   0.2
+2022-06-15 21:33:33.360 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.696  0.718  0.570
+20152878  0.800  0.652  0.729  0.558
+20162503  1.000  0.968  0.952  0.949
+20162504  0.936  0.888  0.796  0.779
+20162505  0.800  1.000  0.962  0.888
+20162506  0.600  0.856  0.791  0.949
+20162507  0.936  0.856  0.770  0.917
+20162508  1.000  0.864  0.915  0.949
+20162509  1.000  0.732  0.743  0.898
+20162511  0.936  0.864  0.920  0.949
+20162512  1.000  0.760  0.802  0.923
+20162513  1.000  0.896  0.892  0.626
+20162514  0.936  0.888  0.834  0.923
+20162515  0.936  0.968  0.805  0.877
+20162516  0.800  0.684  0.749  0.590
+20162517  1.000  0.792  0.835  0.923
+20162518  0.800  0.864  0.867  0.872
+20162519  0.936  0.760  0.807  0.923
+20162520  0.936  0.968  0.935  0.968
+20162522  0.800  0.696  0.743  0.923
+20162523  1.000  0.856  0.808  0.718
+20162524  1.000  0.832  0.882  0.851
+20162526  0.800  0.760  0.840  0.949
+20162527  1.000  0.824  0.824  0.898
+20162528  0.936  0.824  0.840  0.923
+20162529  0.800  0.864  0.914  0.872
+20162530  0.936  0.896  0.920  0.949
+20162531  1.000  0.896  0.952  0.898
+20162532  0.800  0.832  0.898  0.949
+20162533  1.000  0.824  0.781  0.872
+20162534  1.000  0.824  0.834  0.923
+20162536  0.936  0.968  0.983  1.000
+20162538  0.936  0.928  0.807  0.891
+20162539  0.936  1.000  0.989  0.923
+20162540  0.800  0.840  0.913  0.872
+20162541  0.936  0.896  0.860  0.851
+20162542  1.000  0.896  0.830  0.749
+20162543  1.000  0.796  0.776  0.795
+20162544  0.800  0.888  0.845  0.826
+平均值       0.917  0.849  0.848  0.863
+2022-06-15 21:33:33.374 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   22.0   16.0   28.0
+单项目标达成人数        38   35.0   39.0   35.0
+单项目标未达成人数        1    4.0    0.0    4.0
+所有目标超过平均值人数      8    NaN    NaN    NaN
+所有目标均达成人数       33    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 21:33:33.374 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+单项目标达成人数     97.44%  89.74%  100.00%  89.74%
+单项目标未达成人数     2.56%  10.26%    0.00%  10.26%
+2022-06-15 21:33:33.374 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    20.51%
+所有目标均达成人数      84.62%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 21:33:35.982 | ERROR    | src.to_excel:final_data_to_excel:180 - Sheet named '达成度散点图' already present in workbook
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000002C67E8F1940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3 课程目标4
+                                          │        │           │                  │                    学生学号                                 
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.971   nan
+                                          │        │           │                  │                    20152878.0...
+                                          │        │           │                  └ [            1     2     3  4   5   6    7    8      9
+                                          │        │           │                    学生学号                                                 
+                                          │        │           │                    20152516.0  5  1...
+                                          │        │           └ [       1     2     3  4   5   6  7  8  9
+                                          │        │             题号                                      
+                                          │        │             小题分数   5  10.0  35.0  5  10  15  0  0  0
+                                          │        │             课...
+                                          │        └ <function write_excel at 0x000002C67BD1CC10>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 30, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    20.51%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      84.62%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  89.74%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   22.0   16.0   28.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   35.0   39.0   35.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.696  0.718  0.570
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.652  0.729  0.558
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.3     0
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                         
+                │                   │   │                │           │                  课程目标1          0.32    0.0   0.32...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+                └ <function final_data_to_excel at 0x000002C67E8EE8B0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 139, in final_data_to_excel
+    wb.sheets.add('达成度散点图', after=str(df_index_values[-1]))
+    │  │                              └ ['教师评价', '学生自评']
+    │  └ <property object at 0x000002C67E0537C0>
+    └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\xlwings\main.py", line 4930, in add
+    raise ValueError("Sheet named '%s' already present in workbook" % name)
+                                                                      └ '达成度散点图'
+
+ValueError: Sheet named '达成度散点图' already present in workbook
+2022-06-15 21:34:20.329 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+考核方式                                         
+课程目标1          0.32    0.0   0.32  0.16   0.2
+课程目标2          0.32    0.0   0.32  0.16   0.2
+课程目标3         0.192   0.32  0.128  0.16   0.2
+课程目标4           0.0  0.256  0.384  0.16   0.2
+2022-06-15 21:34:20.676 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.696  0.718  0.570
+20152878  0.800  0.652  0.729  0.558
+20162503  1.000  0.968  0.952  0.949
+20162504  0.936  0.888  0.796  0.779
+20162505  0.800  1.000  0.962  0.888
+20162506  0.600  0.856  0.791  0.949
+20162507  0.936  0.856  0.770  0.917
+20162508  1.000  0.864  0.915  0.949
+20162509  1.000  0.732  0.743  0.898
+20162511  0.936  0.864  0.920  0.949
+20162512  1.000  0.760  0.802  0.923
+20162513  1.000  0.896  0.892  0.626
+20162514  0.936  0.888  0.834  0.923
+20162515  0.936  0.968  0.805  0.877
+20162516  0.800  0.684  0.749  0.590
+20162517  1.000  0.792  0.835  0.923
+20162518  0.800  0.864  0.867  0.872
+20162519  0.936  0.760  0.807  0.923
+20162520  0.936  0.968  0.935  0.968
+20162522  0.800  0.696  0.743  0.923
+20162523  1.000  0.856  0.808  0.718
+20162524  1.000  0.832  0.882  0.851
+20162526  0.800  0.760  0.840  0.949
+20162527  1.000  0.824  0.824  0.898
+20162528  0.936  0.824  0.840  0.923
+20162529  0.800  0.864  0.914  0.872
+20162530  0.936  0.896  0.920  0.949
+20162531  1.000  0.896  0.952  0.898
+20162532  0.800  0.832  0.898  0.949
+20162533  1.000  0.824  0.781  0.872
+20162534  1.000  0.824  0.834  0.923
+20162536  0.936  0.968  0.983  1.000
+20162538  0.936  0.928  0.807  0.891
+20162539  0.936  1.000  0.989  0.923
+20162540  0.800  0.840  0.913  0.872
+20162541  0.936  0.896  0.860  0.851
+20162542  1.000  0.896  0.830  0.749
+20162543  1.000  0.796  0.776  0.795
+20162544  0.800  0.888  0.845  0.826
+平均值       0.917  0.849  0.848  0.863
+2022-06-15 21:34:20.692 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   22.0   16.0   28.0
+单项目标达成人数        38   35.0   39.0   35.0
+单项目标未达成人数        1    4.0    0.0    4.0
+所有目标超过平均值人数      8    NaN    NaN    NaN
+所有目标均达成人数       33    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 21:34:20.693 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+单项目标达成人数     97.44%  89.74%  100.00%  89.74%
+单项目标未达成人数     2.56%  10.26%    0.00%  10.26%
+2022-06-15 21:34:20.695 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    20.51%
+所有目标均达成人数      84.62%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 21:34:23.540 | ERROR    | src.to_excel:final_data_to_excel:180 - Sheet named '达成度散点图' already present in workbook
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001E513A81940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3 课程目标4
+                                          │        │           │                  │                    学生学号                                 
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.971   nan
+                                          │        │           │                  │                    20152878.0...
+                                          │        │           │                  └ [            1     2     3  4   5   6    7    8      9
+                                          │        │           │                    学生学号                                                 
+                                          │        │           │                    20152516.0  5  1...
+                                          │        │           └ [       1     2     3  4   5   6  7  8  9
+                                          │        │             题号                                      
+                                          │        │             小题分数   5  10.0  35.0  5  10  15  0  0  0
+                                          │        │             课...
+                                          │        └ <function write_excel at 0x000001E510E8CC10>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 30, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    20.51%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      84.62%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  89.74%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   22.0   16.0   28.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   35.0   39.0   35.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.696  0.718  0.570
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.652  0.729  0.558
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.3     0
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                         
+                │                   │   │                │           │                  课程目标1          0.32    0.0   0.32...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+                └ <function final_data_to_excel at 0x000001E513A7F8B0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 139, in final_data_to_excel
+    wb.sheets.add('达成度散点图', after=str(df_index_values[-1]))
+    │  │                              └ ['教师评价', '学生自评']
+    │  └ <property object at 0x000001E5131046D0>
+    └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\xlwings\main.py", line 4930, in add
+    raise ValueError("Sheet named '%s' already present in workbook" % name)
+                                                                      └ '达成度散点图'
+
+ValueError: Sheet named '达成度散点图' already present in workbook
+2022-06-15 21:36:24.432 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+考核方式                                         
+课程目标1          0.32    0.0   0.32  0.16   0.2
+课程目标2          0.32    0.0   0.32  0.16   0.2
+课程目标3         0.192   0.32  0.128  0.16   0.2
+课程目标4           0.0  0.256  0.384  0.16   0.2
+2022-06-15 21:36:24.771 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.696  0.718  0.570
+20152878  0.800  0.652  0.729  0.558
+20162503  1.000  0.968  0.952  0.949
+20162504  0.936  0.888  0.796  0.779
+20162505  0.800  1.000  0.962  0.888
+20162506  0.600  0.856  0.791  0.949
+20162507  0.936  0.856  0.770  0.917
+20162508  1.000  0.864  0.915  0.949
+20162509  1.000  0.732  0.743  0.898
+20162511  0.936  0.864  0.920  0.949
+20162512  1.000  0.760  0.802  0.923
+20162513  1.000  0.896  0.892  0.626
+20162514  0.936  0.888  0.834  0.923
+20162515  0.936  0.968  0.805  0.877
+20162516  0.800  0.684  0.749  0.590
+20162517  1.000  0.792  0.835  0.923
+20162518  0.800  0.864  0.867  0.872
+20162519  0.936  0.760  0.807  0.923
+20162520  0.936  0.968  0.935  0.968
+20162522  0.800  0.696  0.743  0.923
+20162523  1.000  0.856  0.808  0.718
+20162524  1.000  0.832  0.882  0.851
+20162526  0.800  0.760  0.840  0.949
+20162527  1.000  0.824  0.824  0.898
+20162528  0.936  0.824  0.840  0.923
+20162529  0.800  0.864  0.914  0.872
+20162530  0.936  0.896  0.920  0.949
+20162531  1.000  0.896  0.952  0.898
+20162532  0.800  0.832  0.898  0.949
+20162533  1.000  0.824  0.781  0.872
+20162534  1.000  0.824  0.834  0.923
+20162536  0.936  0.968  0.983  1.000
+20162538  0.936  0.928  0.807  0.891
+20162539  0.936  1.000  0.989  0.923
+20162540  0.800  0.840  0.913  0.872
+20162541  0.936  0.896  0.860  0.851
+20162542  1.000  0.896  0.830  0.749
+20162543  1.000  0.796  0.776  0.795
+20162544  0.800  0.888  0.845  0.826
+平均值       0.917  0.849  0.848  0.863
+2022-06-15 21:36:24.771 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   22.0   16.0   28.0
+单项目标达成人数        38   35.0   39.0   35.0
+单项目标未达成人数        1    4.0    0.0    4.0
+所有目标超过平均值人数      8    NaN    NaN    NaN
+所有目标均达成人数       33    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 21:36:24.771 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+单项目标达成人数     97.44%  89.74%  100.00%  89.74%
+单项目标未达成人数     2.56%  10.26%    0.00%  10.26%
+2022-06-15 21:36:24.771 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    20.51%
+所有目标均达成人数      84.62%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 21:36:26.790 | ERROR    | src.to_excel:final_data_to_excel:181 - Sheet named '达成度散点图' already present in workbook
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001F4BBC91940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3 课程目标4
+                                          │        │           │                  │                    学生学号                                 
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.971   nan
+                                          │        │           │                  │                    20152878.0...
+                                          │        │           │                  └ [            1     2     3  4   5   6    7    8      9
+                                          │        │           │                    学生学号                                                 
+                                          │        │           │                    20152516.0  5  1...
+                                          │        │           └ [       1     2     3  4   5   6  7  8  9
+                                          │        │             题号                                      
+                                          │        │             小题分数   5  10.0  35.0  5  10  15  0  0  0
+                                          │        │             课...
+                                          │        └ <function write_excel at 0x000001F4B904BC10>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 30, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    20.51%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      84.62%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  89.74%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   22.0   16.0   28.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   35.0   39.0   35.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.696  0.718  0.570
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.652  0.729  0.558
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.3     0
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                         
+                │                   │   │                │           │                  课程目标1          0.32    0.0   0.32...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+                └ <function final_data_to_excel at 0x000001F4BBC8F8B0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 139, in final_data_to_excel
+    wb.sheets.add('达成度散点图', after=str(df_index_values[-1]))
+    │  │                              └ ['教师评价', '学生自评']
+    │  └ <property object at 0x000001F4BB3034F0>
+    └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\xlwings\main.py", line 4930, in add
+    raise ValueError("Sheet named '%s' already present in workbook" % name)
+                                                                      └ '达成度散点图'
+
+ValueError: Sheet named '达成度散点图' already present in workbook
+2022-06-15 21:36:28.515 | ERROR    | src.to_excel:plt_to_excel:308 - unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 0    0.64
+                                                                    │        │             │               │     │                │            1    0.16
+                                                                    │        │             │               │     │                │            2     0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001F4BBC91940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 118, in operate_sheet
+    function.diagram(final_target_achieve, student_id, df_weight, new_path, start_col)
+    │        │       │                     │           │          │         └ None
+    │        │       │                     │           │          └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │       │                     │           └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+    │        │       │                     │             考核方式                                         
+    │        │       │                     │             课程目标1          0.32    0.0   0.32...
+    │        │       │                     └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+    │        │       └           课程目标1  课程目标2  课程目标3  课程目标4
+    │        │         20152516  1.000  0.696  0.718  0.570
+    │        │         20152878  0.800  0.652  0.729  0.558
+    │        │         20162503  1.00...
+    │        └ <function diagram at 0x000001F4BBC91700>
+    └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 437, in diagram
+    to_excel.plt_to_excel(fig, sheet, str(i) + "达成度散点图", start_col, start_idx)
+    │        │            │    │          │              │          └ 6
+    │        │            │    │          │              └ None
+    │        │            │    │          └ '课程目标1'
+    │        │            │    └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │            └ <Figure size 640x480 with 1 Axes>
+    │        └ <function plt_to_excel at 0x000001F4BBC8FAF0>
+    └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 302, in plt_to_excel
+    sht.pictures.add(figure, name=target_name, left=sht[start_idx, start_col+2].left, top=sht[start_idx, start_col+2].top)
+    │   │            │            │                 │   │          │                      │   │          └ None
+    │   │            │            │                 │   │          │                      │   └ 6
+    │   │            │            │                 │   │          │                      └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            │                 │   │          └ None
+    │   │            │            │                 │   └ 6
+    │   │            │            │                 └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            └ '课程目标1达成度散点图'
+    │   │            └ <Figure size 640x480 with 1 Axes>
+    │   └ <property object at 0x000001F4BB3039A0>
+    └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+2022-06-15 21:36:29.193 | ERROR    | src.to_excel:plt_to_excel:308 - unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 0    0.64
+                                                                    │        │             │               │     │                │            1    0.16
+                                                                    │        │             │               │     │                │            2     0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001F4BBC91940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 118, in operate_sheet
+    function.diagram(final_target_achieve, student_id, df_weight, new_path, start_col)
+    │        │       │                     │           │          │         └ None
+    │        │       │                     │           │          └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │       │                     │           └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+    │        │       │                     │             考核方式                                         
+    │        │       │                     │             课程目标1          0.32    0.0   0.32...
+    │        │       │                     └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+    │        │       └           课程目标1  课程目标2  课程目标3  课程目标4
+    │        │         20152516  1.000  0.696  0.718  0.570
+    │        │         20152878  0.800  0.652  0.729  0.558
+    │        │         20162503  1.00...
+    │        └ <function diagram at 0x000001F4BBC91700>
+    └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 437, in diagram
+    to_excel.plt_to_excel(fig, sheet, str(i) + "达成度散点图", start_col, start_idx)
+    │        │            │    │          │              │          └ 31
+    │        │            │    │          │              └ None
+    │        │            │    │          └ '课程目标2'
+    │        │            │    └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │            └ <Figure size 640x480 with 1 Axes>
+    │        └ <function plt_to_excel at 0x000001F4BBC8FAF0>
+    └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 302, in plt_to_excel
+    sht.pictures.add(figure, name=target_name, left=sht[start_idx, start_col+2].left, top=sht[start_idx, start_col+2].top)
+    │   │            │            │                 │   │          │                      │   │          └ None
+    │   │            │            │                 │   │          │                      │   └ 31
+    │   │            │            │                 │   │          │                      └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            │                 │   │          └ None
+    │   │            │            │                 │   └ 31
+    │   │            │            │                 └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            └ '课程目标2达成度散点图'
+    │   │            └ <Figure size 640x480 with 1 Axes>
+    │   └ <property object at 0x000001F4BB3039A0>
+    └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+2022-06-15 21:36:29.944 | ERROR    | src.to_excel:plt_to_excel:308 - unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 0    0.64
+                                                                    │        │             │               │     │                │            1    0.16
+                                                                    │        │             │               │     │                │            2     0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001F4BBC91940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 118, in operate_sheet
+    function.diagram(final_target_achieve, student_id, df_weight, new_path, start_col)
+    │        │       │                     │           │          │         └ None
+    │        │       │                     │           │          └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │       │                     │           └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+    │        │       │                     │             考核方式                                         
+    │        │       │                     │             课程目标1          0.32    0.0   0.32...
+    │        │       │                     └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+    │        │       └           课程目标1  课程目标2  课程目标3  课程目标4
+    │        │         20152516  1.000  0.696  0.718  0.570
+    │        │         20152878  0.800  0.652  0.729  0.558
+    │        │         20162503  1.00...
+    │        └ <function diagram at 0x000001F4BBC91700>
+    └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 437, in diagram
+    to_excel.plt_to_excel(fig, sheet, str(i) + "达成度散点图", start_col, start_idx)
+    │        │            │    │          │              │          └ 56
+    │        │            │    │          │              └ None
+    │        │            │    │          └ '课程目标3'
+    │        │            │    └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │            └ <Figure size 640x480 with 1 Axes>
+    │        └ <function plt_to_excel at 0x000001F4BBC8FAF0>
+    └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 302, in plt_to_excel
+    sht.pictures.add(figure, name=target_name, left=sht[start_idx, start_col+2].left, top=sht[start_idx, start_col+2].top)
+    │   │            │            │                 │   │          │                      │   │          └ None
+    │   │            │            │                 │   │          │                      │   └ 56
+    │   │            │            │                 │   │          │                      └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            │                 │   │          └ None
+    │   │            │            │                 │   └ 56
+    │   │            │            │                 └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            └ '课程目标3达成度散点图'
+    │   │            └ <Figure size 640x480 with 1 Axes>
+    │   └ <property object at 0x000001F4BB3039A0>
+    └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+2022-06-15 21:36:30.641 | ERROR    | src.to_excel:plt_to_excel:308 - unsupported operand type(s) for +: 'NoneType' and 'int'
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 0    0.64
+                                                                    │        │             │               │     │                │            1    0.16
+                                                                    │        │             │               │     │                │            2     0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                         
+                                                                    │        │             │               │     │                  课程目标1          0.32    0.0   0.32...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.3     0
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001F4BBC91940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 118, in operate_sheet
+    function.diagram(final_target_achieve, student_id, df_weight, new_path, start_col)
+    │        │       │                     │           │          │         └ None
+    │        │       │                     │           │          └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │       │                     │           └ 课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+    │        │       │                     │             考核方式                                         
+    │        │       │                     │             课程目标1          0.32    0.0   0.32...
+    │        │       │                     └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+    │        │       └           课程目标1  课程目标2  课程目标3  课程目标4
+    │        │         20152516  1.000  0.696  0.718  0.570
+    │        │         20152878  0.800  0.652  0.729  0.558
+    │        │         20162503  1.00...
+    │        └ <function diagram at 0x000001F4BBC91700>
+    └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 437, in diagram
+    to_excel.plt_to_excel(fig, sheet, str(i) + "达成度散点图", start_col, start_idx)
+    │        │            │    │          │              │          └ 81
+    │        │            │    │          │              └ None
+    │        │            │    │          └ '课程目标4'
+    │        │            │    └ '../data_new/41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls'
+    │        │            └ <Figure size 640x480 with 1 Axes>
+    │        └ <function plt_to_excel at 0x000001F4BBC8FAF0>
+    └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 302, in plt_to_excel
+    sht.pictures.add(figure, name=target_name, left=sht[start_idx, start_col+2].left, top=sht[start_idx, start_col+2].top)
+    │   │            │            │                 │   │          │                      │   │          └ None
+    │   │            │            │                 │   │          │                      │   └ 81
+    │   │            │            │                 │   │          │                      └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            │                 │   │          └ None
+    │   │            │            │                 │   └ 81
+    │   │            │            │                 └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+    │   │            │            └ '课程目标4达成度散点图'
+    │   │            └ <Figure size 640x480 with 1 Axes>
+    │   └ <property object at 0x000001F4BB3039A0>
+    └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (4)(1).xls]达成度散点图>
+
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'int'
+2022-06-15 21:44:00.801 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+考核方式                                         
+课程目标1          0.32    0.0   0.32  0.16   0.2
+课程目标2          0.32    0.0   0.32  0.16   0.2
+课程目标3         0.192   0.32  0.128  0.16   0.2
+课程目标4           0.0  0.256  0.384  0.16   0.2
+2022-06-15 21:44:01.051 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.696  0.718  0.570
+20152878  0.800  0.652  0.729  0.558
+20162503  1.000  0.968  0.952  0.949
+20162504  0.936  0.888  0.796  0.779
+20162505  0.800  1.000  0.962  0.888
+20162506  0.600  0.856  0.791  0.949
+20162507  0.936  0.856  0.770  0.917
+20162508  1.000  0.864  0.915  0.949
+20162509  1.000  0.732  0.743  0.898
+20162511  0.936  0.864  0.920  0.949
+20162512  1.000  0.760  0.802  0.923
+20162513  1.000  0.896  0.892  0.626
+20162514  0.936  0.888  0.834  0.923
+20162515  0.936  0.968  0.805  0.877
+20162516  0.800  0.684  0.749  0.590
+20162517  1.000  0.792  0.835  0.923
+20162518  0.800  0.864  0.867  0.872
+20162519  0.936  0.760  0.807  0.923
+20162520  0.936  0.968  0.935  0.968
+20162522  0.800  0.696  0.743  0.923
+20162523  1.000  0.856  0.808  0.718
+20162524  1.000  0.832  0.882  0.851
+20162526  0.800  0.760  0.840  0.949
+20162527  1.000  0.824  0.824  0.898
+20162528  0.936  0.824  0.840  0.923
+20162529  0.800  0.864  0.914  0.872
+20162530  0.936  0.896  0.920  0.949
+20162531  1.000  0.896  0.952  0.898
+20162532  0.800  0.832  0.898  0.949
+20162533  1.000  0.824  0.781  0.872
+20162534  1.000  0.824  0.834  0.923
+20162536  0.936  0.968  0.983  1.000
+20162538  0.936  0.928  0.807  0.891
+20162539  0.936  1.000  0.989  0.923
+20162540  0.800  0.840  0.913  0.872
+20162541  0.936  0.896  0.860  0.851
+20162542  1.000  0.896  0.830  0.749
+20162543  1.000  0.796  0.776  0.795
+20162544  0.800  0.888  0.845  0.826
+平均值       0.917  0.849  0.848  0.863
+2022-06-15 21:44:01.067 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   22.0   16.0   28.0
+单项目标达成人数        38   35.0   39.0   35.0
+单项目标未达成人数        1    4.0    0.0    4.0
+所有目标超过平均值人数      8    NaN    NaN    NaN
+所有目标均达成人数       33    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 21:44:01.067 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  56.41%   41.03%  71.79%
+单项目标达成人数     97.44%  89.74%  100.00%  89.74%
+单项目标未达成人数     2.56%  10.26%    0.00%  10.26%
+2022-06-15 21:44:01.067 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    20.51%
+所有目标均达成人数      84.62%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-18 08:58:29.717 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告     报告   程序运行     答辩  教师评价  学生自评
+考核方式                                         
+课程目标1          0.32    0.0   0.32  0.16   0.2
+课程目标2          0.32    0.0   0.32  0.16   0.2
+课程目标3         0.192   0.32  0.128  0.16   0.2
+课程目标4           0.0  0.256  0.384  0.16   0.2
+2022-06-18 08:58:29.874 | ERROR    | src.check_data:check_out_error:85 - 程序运行页帧学生分数设置异常，程序终止运行

@@ -1,0 +1,849 @@
+2022-06-12 21:25:18.918 | ERROR    | src.check_data:check_cover:38 - 课程目标达成情况报告页帧【开课学期】数据与封皮页帧数据不一致，程序终止运行
+2022-06-12 21:25:33.467 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:26:08.492 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:26:45.480 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:27:02.279 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:27:44.448 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:27:44.514 | ERROR    | src.function:operate_object_sheet:117 - "['参数'] not found in axis"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 17, in <module>
+    final_target_achieve, new_path, student_id, k = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                    │        │             │               │     │                │          └ 达成度 （考核成绩法）    0.64
+                                                    │        │             │               │     │                │            达成度 （教师评价法）    0.16
+                                                    │        │             │               │     │                │            达成度 （学生自评法）     0.2
+                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+                                                    │        │             │               │     │                  考核方式                                              
+                                                    │        │             │               │     │                  课程目标1         0.64  0.0...
+                                                    │        │             │               │     └ []
+                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                                    │        │             └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                                    │        │               课程目标达成情况评价报告                                   
+                                                    │        │               作业                1      1   ...
+                                                    │        └ <function operate_sheet at 0x000002977A230E50>
+                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 92, in operate_sheet
+    object_all_params, object_all_scores = function.read_object_sheet(df_test_weight, sheet_name, student_id, k, df_param, df_score, sheet)
+                                           │        │                 │               │           │           │  │         │         └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                           │        │                 │               │           │           │  │         └               1  2    3    4    5
+                                           │        │                 │               │           │           │  │           学生学号                             
+                                           │        │                 │               │           │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                           │        │                 │               │           │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                           │        │                 │               │           │           │  └        1    2    3    4
+                                           │        │                 │               │           │           │    题号                     
+                                           │        │                 │               │           │           │    小题分数   7  8.0  6.0  9.0
+                                           │        │                 │               │           │           │    课程目标1  1  0.0  0.0  0.0
+                                           │        │                 │               │           │           │    课程目标2  0  0.0  1.0  0.0
+                                           │        │                 │               │           │           │    课程目标3...
+                                           │        │                 │               │           │           └ 0
+                                           │        │                 │               │           └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                           │        │                 │               └ '作业'
+                                           │        │                 └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                           │        │                   课程目标达成情况评价报告                                   
+                                           │        │                   作业                1      1   ...
+                                           │        └ <function read_object_sheet at 0x000002977A2301F0>
+                                           └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 157, in read_object_sheet
+    object_all_param, object_all_scores = operate_object_sheet(object_evaluation, df_test_weight, student_id, k, df_param, df_score)
+                                          │                    │                  │               │           │  │         └               1  2    3    4    5
+                                          │                    │                  │               │           │  │           学生学号                             
+                                          │                    │                  │               │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                          │                    │                  │               │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                          │                    │                  │               │           │  └        1    2    3    4
+                                          │                    │                  │               │           │    题号                     
+                                          │                    │                  │               │           │    小题分数   7  8.0  6.0  9.0
+                                          │                    │                  │               │           │    课程目标1  1  0.0  0.0  0.0
+                                          │                    │                  │               │           │    课程目标2  0  0.0  1.0  0.0
+                                          │                    │                  │               │           │    课程目标3...
+                                          │                    │                  │               │           └ 0
+                                          │                    │                  │               └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                          │                    │                  └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                          │                    │                    课程目标达成情况评价报告                                   
+                                          │                    │                    作业                1      1   ...
+                                          │                    └ [       Unnamed: 1 Unnamed: 2    作业1  Unnamed: 4    作业2  Unnamed: 6
+                                          │                      参数设置                                                     ...
+                                          └ <function operate_object_sheet at 0x000002977A22FDC0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 100, in operate_object_sheet
+    object_data = object_data.drop(columns='参数')
+                  │           └ <function DataFrame.drop at 0x00000297778343A0>
+                  └ 参数           题号       1
+                    参数设置                   
+                    参数           题号       1
+                    NaN        小题分数      70
+                    NaN       课程目标1     NaN
+                    NaN  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4308, in drop
+    return super().drop(
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4153, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          │   │          │       │           │             └ 'raise'
+          │   │          │       │           └ None
+          │   │          │       └ 'columns'
+          │   │          └ '参数'
+          │   └ <function NDFrame._drop_axis at 0x00000297777A0AF0>
+          └ 参数           题号       1
+            参数设置                   
+            参数           题号       1
+            NaN        小题分数      70
+            NaN       课程目标1     NaN
+            NaN  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4188, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               │    │    │              └ 'raise'
+               │    │    └ '参数'
+               │    └ <function Index.drop at 0x0000029777301700>
+               └ Index(['题号', 1], dtype='object', name='参数')
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5591, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+
+KeyError: "['参数'] not found in axis"
+2022-06-12 21:28:10.075 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:28:10.142 | ERROR    | src.function:operate_object_sheet:117 - "['参数'] not found in axis"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 17, in <module>
+    final_target_achieve, new_path, student_id, k = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                    │        │             │               │     │                │          └ 达成度 （考核成绩法）    0.64
+                                                    │        │             │               │     │                │            达成度 （教师评价法）    0.16
+                                                    │        │             │               │     │                │            达成度 （学生自评法）     0.2
+                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+                                                    │        │             │               │     │                  考核方式                                              
+                                                    │        │             │               │     │                  课程目标1         0.64  0.0...
+                                                    │        │             │               │     └ []
+                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                                    │        │             └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                                    │        │               课程目标达成情况评价报告                                   
+                                                    │        │               作业                1      1   ...
+                                                    │        └ <function operate_sheet at 0x0000016549470E50>
+                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 92, in operate_sheet
+    object_all_params, object_all_scores = function.read_object_sheet(df_test_weight, sheet_name, student_id, k, df_param, df_score, sheet)
+                                           │        │                 │               │           │           │  │         │         └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                           │        │                 │               │           │           │  │         └               1  2    3    4    5
+                                           │        │                 │               │           │           │  │           学生学号                             
+                                           │        │                 │               │           │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                           │        │                 │               │           │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                           │        │                 │               │           │           │  └        1    2    3    4
+                                           │        │                 │               │           │           │    题号                     
+                                           │        │                 │               │           │           │    小题分数   7  8.0  6.0  9.0
+                                           │        │                 │               │           │           │    课程目标1  1  0.0  0.0  0.0
+                                           │        │                 │               │           │           │    课程目标2  0  0.0  1.0  0.0
+                                           │        │                 │               │           │           │    课程目标3...
+                                           │        │                 │               │           │           └ 0
+                                           │        │                 │               │           └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                           │        │                 │               └ '作业'
+                                           │        │                 └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                           │        │                   课程目标达成情况评价报告                                   
+                                           │        │                   作业                1      1   ...
+                                           │        └ <function read_object_sheet at 0x00000165494701F0>
+                                           └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 157, in read_object_sheet
+    object_all_param, object_all_scores = operate_object_sheet(object_evaluation, df_test_weight, student_id, k, df_param, df_score)
+                                          │                    │                  │               │           │  │         └               1  2    3    4    5
+                                          │                    │                  │               │           │  │           学生学号                             
+                                          │                    │                  │               │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                          │                    │                  │               │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                          │                    │                  │               │           │  └        1    2    3    4
+                                          │                    │                  │               │           │    题号                     
+                                          │                    │                  │               │           │    小题分数   7  8.0  6.0  9.0
+                                          │                    │                  │               │           │    课程目标1  1  0.0  0.0  0.0
+                                          │                    │                  │               │           │    课程目标2  0  0.0  1.0  0.0
+                                          │                    │                  │               │           │    课程目标3...
+                                          │                    │                  │               │           └ 0
+                                          │                    │                  │               └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                          │                    │                  └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                          │                    │                    课程目标达成情况评价报告                                   
+                                          │                    │                    作业                1      1   ...
+                                          │                    └ [       Unnamed: 1 Unnamed: 2    作业1  Unnamed: 4    作业2  Unnamed: 6
+                                          │                      参数设置                                                     ...
+                                          └ <function operate_object_sheet at 0x000001654946EDC0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 100, in operate_object_sheet
+    object_data = object_data.drop(columns='参数')
+                  │           └ <function DataFrame.drop at 0x0000016546A943A0>
+                  └ 参数           题号       1
+                    参数设置                   
+                    参数           题号       1
+                    NaN        小题分数      70
+                    NaN       课程目标1     NaN
+                    NaN  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4308, in drop
+    return super().drop(
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4153, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          │   │          │       │           │             └ 'raise'
+          │   │          │       │           └ None
+          │   │          │       └ 'columns'
+          │   │          └ '参数'
+          │   └ <function NDFrame._drop_axis at 0x0000016546A00AF0>
+          └ 参数           题号       1
+            参数设置                   
+            参数           题号       1
+            NaN        小题分数      70
+            NaN       课程目标1     NaN
+            NaN  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4188, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               │    │    │              └ 'raise'
+               │    │    └ '参数'
+               │    └ <function Index.drop at 0x0000016546561700>
+               └ Index(['题号', 1], dtype='object', name='参数')
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5591, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+
+KeyError: "['参数'] not found in axis"
+2022-06-12 21:30:00.547 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:30:00.615 | ERROR    | src.function:operate_object_sheet:117 - "None of ['题号'] are in the columns"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 17, in <module>
+    final_target_achieve, new_path, student_id, k = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                    │        │             │               │     │                │          └ 达成度 （考核成绩法）    0.64
+                                                    │        │             │               │     │                │            达成度 （教师评价法）    0.16
+                                                    │        │             │               │     │                │            达成度 （学生自评法）     0.2
+                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+                                                    │        │             │               │     │                  考核方式                                              
+                                                    │        │             │               │     │                  课程目标1         0.64  0.0...
+                                                    │        │             │               │     └ []
+                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                                    │        │             └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                                    │        │               课程目标达成情况评价报告                                   
+                                                    │        │               作业                1      1   ...
+                                                    │        └ <function operate_sheet at 0x0000026B104DFEE0>
+                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 92, in operate_sheet
+    object_all_params, object_all_scores = function.read_object_sheet(df_test_weight, sheet_name, student_id, k, df_param, df_score, sheet)
+                                           │        │                 │               │           │           │  │         │         └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                           │        │                 │               │           │           │  │         └               1  2    3    4    5
+                                           │        │                 │               │           │           │  │           学生学号                             
+                                           │        │                 │               │           │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                           │        │                 │               │           │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                           │        │                 │               │           │           │  └        1    2    3    4
+                                           │        │                 │               │           │           │    题号                     
+                                           │        │                 │               │           │           │    小题分数   7  8.0  6.0  9.0
+                                           │        │                 │               │           │           │    课程目标1  1  0.0  0.0  0.0
+                                           │        │                 │               │           │           │    课程目标2  0  0.0  1.0  0.0
+                                           │        │                 │               │           │           │    课程目标3...
+                                           │        │                 │               │           │           └ 0
+                                           │        │                 │               │           └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                           │        │                 │               └ '作业'
+                                           │        │                 └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                           │        │                   课程目标达成情况评价报告                                   
+                                           │        │                   作业                1      1   ...
+                                           │        └ <function read_object_sheet at 0x0000026B104DF280>
+                                           └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 157, in read_object_sheet
+    object_all_param, object_all_scores = operate_object_sheet(object_evaluation, df_test_weight, student_id, k, df_param, df_score)
+                                          │                    │                  │               │           │  │         └               1  2    3    4    5
+                                          │                    │                  │               │           │  │           学生学号                             
+                                          │                    │                  │               │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                          │                    │                  │               │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                          │                    │                  │               │           │  └        1    2    3    4
+                                          │                    │                  │               │           │    题号                     
+                                          │                    │                  │               │           │    小题分数   7  8.0  6.0  9.0
+                                          │                    │                  │               │           │    课程目标1  1  0.0  0.0  0.0
+                                          │                    │                  │               │           │    课程目标2  0  0.0  1.0  0.0
+                                          │                    │                  │               │           │    课程目标3...
+                                          │                    │                  │               │           └ 0
+                                          │                    │                  │               └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                          │                    │                  └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                          │                    │                    课程目标达成情况评价报告                                   
+                                          │                    │                    作业                1      1   ...
+                                          │                    └ [       Unnamed: 1 Unnamed: 2    作业1  Unnamed: 4    作业2  Unnamed: 6
+                                          │                      参数设置                                                     ...
+                                          └ <function operate_object_sheet at 0x0000026B104DEE50>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 101, in operate_object_sheet
+    object_data.set_index('题号', inplace=True)
+    │           └ <function DataFrame.set_index at 0x0000026B0DB148B0>
+    └              报告 Unnamed: 2
+      参数设置                      
+      参数           题号          1
+      NaN        小题分数         70
+      NaN       课程目标1  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4727, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+
+KeyError: "None of ['题号'] are in the columns"
+2022-06-12 21:30:45.453 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:30:45.522 | ERROR    | src.function:operate_object_sheet:117 - "['参数'] not found in axis"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 17, in <module>
+    final_target_achieve, new_path, student_id, k = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                    │        │             │               │     │                │          └ 达成度 （考核成绩法）    0.64
+                                                    │        │             │               │     │                │            达成度 （教师评价法）    0.16
+                                                    │        │             │               │     │                │            达成度 （学生自评法）     0.2
+                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+                                                    │        │             │               │     │                  考核方式                                              
+                                                    │        │             │               │     │                  课程目标1         0.64  0.0...
+                                                    │        │             │               │     └ []
+                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                                    │        │             └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                                    │        │               课程目标达成情况评价报告                                   
+                                                    │        │               作业                1      1   ...
+                                                    │        └ <function operate_sheet at 0x000001491DCC0E50>
+                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 92, in operate_sheet
+    object_all_params, object_all_scores = function.read_object_sheet(df_test_weight, sheet_name, student_id, k, df_param, df_score, sheet)
+                                           │        │                 │               │           │           │  │         │         └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                           │        │                 │               │           │           │  │         └               1  2    3    4    5
+                                           │        │                 │               │           │           │  │           学生学号                             
+                                           │        │                 │               │           │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                           │        │                 │               │           │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                           │        │                 │               │           │           │  └        1    2    3    4
+                                           │        │                 │               │           │           │    题号                     
+                                           │        │                 │               │           │           │    小题分数   7  8.0  6.0  9.0
+                                           │        │                 │               │           │           │    课程目标1  1  0.0  0.0  0.0
+                                           │        │                 │               │           │           │    课程目标2  0  0.0  1.0  0.0
+                                           │        │                 │               │           │           │    课程目标3...
+                                           │        │                 │               │           │           └ 0
+                                           │        │                 │               │           └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                           │        │                 │               └ '作业'
+                                           │        │                 └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                           │        │                   课程目标达成情况评价报告                                   
+                                           │        │                   作业                1      1   ...
+                                           │        └ <function read_object_sheet at 0x000001491DCC01F0>
+                                           └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 157, in read_object_sheet
+    object_all_param, object_all_scores = operate_object_sheet(object_evaluation, df_test_weight, student_id, k, df_param, df_score)
+                                          │                    │                  │               │           │  │         └               1  2    3    4    5
+                                          │                    │                  │               │           │  │           学生学号                             
+                                          │                    │                  │               │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                          │                    │                  │               │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                          │                    │                  │               │           │  └        1    2    3    4
+                                          │                    │                  │               │           │    题号                     
+                                          │                    │                  │               │           │    小题分数   7  8.0  6.0  9.0
+                                          │                    │                  │               │           │    课程目标1  1  0.0  0.0  0.0
+                                          │                    │                  │               │           │    课程目标2  0  0.0  1.0  0.0
+                                          │                    │                  │               │           │    课程目标3...
+                                          │                    │                  │               │           └ 0
+                                          │                    │                  │               └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                          │                    │                  └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                          │                    │                    课程目标达成情况评价报告                                   
+                                          │                    │                    作业                1      1   ...
+                                          │                    └ [       Unnamed: 1 Unnamed: 2    作业1  Unnamed: 4    作业2  Unnamed: 6
+                                          │                      参数设置                                                     ...
+                                          └ <function operate_object_sheet at 0x000001491DCBFDC0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 100, in operate_object_sheet
+    object_data = object_data.drop(columns='参数')
+                  │           └ <function DataFrame.drop at 0x000001491B2D53A0>
+                  └ 参数           题号       1
+                    参数设置                   
+                    参数           题号       1
+                    NaN        小题分数      70
+                    NaN       课程目标1     NaN
+                    NaN  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4308, in drop
+    return super().drop(
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4153, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          │   │          │       │           │             └ 'raise'
+          │   │          │       │           └ None
+          │   │          │       └ 'columns'
+          │   │          └ '参数'
+          │   └ <function NDFrame._drop_axis at 0x000001491B240AF0>
+          └ 参数           题号       1
+            参数设置                   
+            参数           题号       1
+            NaN        小题分数      70
+            NaN       课程目标1     NaN
+            NaN  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4188, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               │    │    │              └ 'raise'
+               │    │    └ '参数'
+               │    └ <function Index.drop at 0x000001491ADA1700>
+               └ Index(['题号', 1], dtype='object', name='参数')
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5591, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+
+KeyError: "['参数'] not found in axis"
+2022-06-12 21:31:26.980 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:31:27.047 | ERROR    | src.function:operate_object_sheet:117 - "['参数'] not found in axis"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 17, in <module>
+    final_target_achieve, new_path, student_id, k = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                    │        │             │               │     │                │          └ 达成度 （考核成绩法）    0.64
+                                                    │        │             │               │     │                │            达成度 （教师评价法）    0.16
+                                                    │        │             │               │     │                │            达成度 （学生自评法）     0.2
+                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+                                                    │        │             │               │     │                  考核方式                                              
+                                                    │        │             │               │     │                  课程目标1         0.64  0.0...
+                                                    │        │             │               │     └ []
+                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                                    │        │             └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                                    │        │               课程目标达成情况评价报告                                   
+                                                    │        │               作业                1      1   ...
+                                                    │        └ <function operate_sheet at 0x000001E6580F0E50>
+                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 92, in operate_sheet
+    object_all_params, object_all_scores = function.read_object_sheet(df_test_weight, sheet_name, student_id, k, df_param, df_score, sheet)
+                                           │        │                 │               │           │           │  │         │         └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                           │        │                 │               │           │           │  │         └               1  2    3    4    5
+                                           │        │                 │               │           │           │  │           学生学号                             
+                                           │        │                 │               │           │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                           │        │                 │               │           │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                           │        │                 │               │           │           │  └        1    2    3    4
+                                           │        │                 │               │           │           │    题号                     
+                                           │        │                 │               │           │           │    小题分数   7  8.0  6.0  9.0
+                                           │        │                 │               │           │           │    课程目标1  1  0.0  0.0  0.0
+                                           │        │                 │               │           │           │    课程目标2  0  0.0  1.0  0.0
+                                           │        │                 │               │           │           │    课程目标3...
+                                           │        │                 │               │           │           └ 0
+                                           │        │                 │               │           └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                           │        │                 │               └ '作业'
+                                           │        │                 └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                           │        │                   课程目标达成情况评价报告                                   
+                                           │        │                   作业                1      1   ...
+                                           │        └ <function read_object_sheet at 0x000001E6580F01F0>
+                                           └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 157, in read_object_sheet
+    object_all_param, object_all_scores = operate_object_sheet(object_evaluation, df_test_weight, student_id, k, df_param, df_score)
+                                          │                    │                  │               │           │  │         └               1  2    3    4    5
+                                          │                    │                  │               │           │  │           学生学号                             
+                                          │                    │                  │               │           │  │           20152516.0   葛彪  7  6.0  5.0  7.0
+                                          │                    │                  │               │           │  │           20162503.0  鲍鑫磊  7  7.0...
+                                          │                    │                  │               │           │  └        1    2    3    4
+                                          │                    │                  │               │           │    题号                     
+                                          │                    │                  │               │           │    小题分数   7  8.0  6.0  9.0
+                                          │                    │                  │               │           │    课程目标1  1  0.0  0.0  0.0
+                                          │                    │                  │               │           │    课程目标2  0  0.0  1.0  0.0
+                                          │                    │                  │               │           │    课程目标3...
+                                          │                    │                  │               │           └ 0
+                                          │                    │                  │               └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                          │                    │                  └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                          │                    │                    课程目标达成情况评价报告                                   
+                                          │                    │                    作业                1      1   ...
+                                          │                    └ [       Unnamed: 1 Unnamed: 2    作业1  Unnamed: 4    作业2  Unnamed: 6
+                                          │                      参数设置                                                     ...
+                                          └ <function operate_object_sheet at 0x000001E6580EFDC0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 100, in operate_object_sheet
+    object_data = object_data.drop(columns='参数')
+                  │           └ <function DataFrame.drop at 0x000001E6557233A0>
+                  └ 参数           题号       1
+                    参数设置                   
+                    参数           题号       1
+                    NaN        小题分数      70
+                    NaN       课程目标1     NaN
+                    NaN  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4308, in drop
+    return super().drop(
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4153, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          │   │          │       │           │             └ 'raise'
+          │   │          │       │           └ None
+          │   │          │       └ 'columns'
+          │   │          └ '参数'
+          │   └ <function NDFrame._drop_axis at 0x000001E655690AF0>
+          └ 参数           题号       1
+            参数设置                   
+            参数           题号       1
+            NaN        小题分数      70
+            NaN       课程目标1     NaN
+            NaN  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4188, in _drop_axis
+    new_axis = axis.drop(labels, errors=errors)
+               │    │    │              └ 'raise'
+               │    │    └ '参数'
+               │    └ <function Index.drop at 0x000001E6551F1700>
+               └ Index(['题号', 1], dtype='object', name='参数')
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5591, in drop
+    raise KeyError(f"{labels[mask]} not found in axis")
+
+KeyError: "['参数'] not found in axis"
+2022-06-12 21:32:03.480 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:33:37.538 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:34:46.990 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:35:00.212 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:36:00.958 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:37:02.371 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:37:37.251 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:38:04.711 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:38:18.075 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:38:29.843 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:38:50.844 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:39:52.782 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:40:41.142 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:41:14.872 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:41:58.819 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:43:02.585 | INFO     | __main__:<module>:15 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                              
+课程目标1         0.64  0.00         0.16          0.2
+课程目标2         0.64  0.00         0.16          0.2
+课程目标3         0.64  0.00         0.16          0.2
+课程目标4         0.64  0.00         0.16          0.2
+课程目标5         0.00  0.64         0.16          0.2
+2022-06-12 21:43:02.678 | ERROR    | src.function:operate_unobject_sheet:155 - '参数设置'
+Traceback (most recent call last):
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+           │    │               └ '参数设置'
+           │    └ <pandas._libs.properties.CachedProperty object at 0x0000012156F0CF00>
+           └ Index([  '教师评价',   '学生学号',      nan,      nan, 20152516, 20162503, 20162504,
+                    20162505, 20162506, 20162507, 20162508, 2...
+
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 96, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 126, in pandas._libs.index.IndexEngine._get_loc_duplicates
+  File "pandas\_libs\index.pyx", line 133, in pandas._libs.index.IndexEngine._maybe_get_bool_indexer
+  File "pandas\_libs\index.pyx", line 150, in pandas._libs.index.IndexEngine._unpack_bool_indexer
+
+KeyError: '参数设置'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 17, in <module>
+    final_target_achieve, new_path, student_id, k = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                    │        │             │               │     │                │          └ 达成度 （考核成绩法）    0.64
+                                                    │        │             │               │     │                │            达成度 （教师评价法）    0.16
+                                                    │        │             │               │     │                │            达成度 （学生自评法）     0.2
+                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    作业    报告  达成度 （教师评价法）  达成度 （学生自评法）
+                                                    │        │             │               │     │                  考核方式                                              
+                                                    │        │             │               │     │                  课程目标1         0.64  0.0...
+                                                    │        │             │               │     └ ['达成度 （教师评价法）']
+                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                                    │        │             └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                                    │        │               课程目标达成情况评价报告                                   
+                                                    │        │               作业                1      1   ...
+                                                    │        └ <function operate_sheet at 0x0000012159E5FEE0>
+                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 94, in operate_sheet
+    unobject_params, unobject_scores = function.read_unobject_sheet(df_index_values, sheet, student_id, df_test_weight)
+                                       │        │                   │                │      │           └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                       │        │                   │                │      │             课程目标达成情况评价报告                                   
+                                       │        │                   │                │      │             作业                1      1   ...
+                                       │        │                   │                │      └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                       │        │                   │                └ '..\\data\\6_课程目标达成情况评价报告-6.13(1).xls'
+                                       │        │                   └ ['达成度 （教师评价法）']
+                                       │        └ <function read_unobject_sheet at 0x0000012159E5F310>
+                                       └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 170, in read_unobject_sheet
+    unobject_param, unobject_scores = operate_unobject_sheet(unobject_evaluation, df_test_weight.columns, student_id, df_index_values)
+                                      │                      │                    │              │        │           └ ['达成度 （教师评价法）']
+                                      │                      │                    │              │        └ [20152516, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 20162514, 2016...
+                                      │                      │                    │              └ <pandas._libs.properties.AxisProperty object at 0x0000012157453B50>
+                                      │                      │                    └ 考核方式          课程目标1  课程目标2  课程目标3  课程目标4  课程目标5
+                                      │                      │                      课程目标达成情况评价报告                                   
+                                      │                      │                      作业                1      1   ...
+                                      │                      └ [             1     2    3    4    5    6
+                                      │                        0                                       
+                                      │                        教师评价       NaN   NaN  NaN  NaN  NaN  NaN
+                                      │                        学...
+                                      └ <function operate_unobject_sheet at 0x0000012159E5EF70>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 139, in operate_unobject_sheet
+    single_param = i.loc['参数设置':'学生学号', :].drop(index=['学生学号', '参数设置'])
+                   │ └ <property object at 0x00000121570DB8B0>
+                   └              1     2    3    4    5    6
+                     0                                       
+                     教师评价       NaN   NaN  NaN  NaN  NaN  NaN
+                     学生...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 889, in __getitem__
+    return self._getitem_tuple(key)
+           │    │              └ (slice('参数设置', '学生学号', None), slice(None, None, None))
+           │    └ <function _LocIndexer._getitem_tuple at 0x00000121570E0CA0>
+           └ <pandas.core.indexing._LocIndexer object at 0x0000012159EC2220>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1069, in _getitem_tuple
+    return self._getitem_tuple_same_dim(tup)
+           │    │                       └ (slice('参数设置', '学生学号', None), slice(None, None, None))
+           │    └ <function _LocationIndexer._getitem_tuple_same_dim at 0x00000121570E0310>
+           └ <pandas.core.indexing._LocIndexer object at 0x0000012159EC2220>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 775, in _getitem_tuple_same_dim
+    retval = getattr(retval, self.name)._getitem_axis(key, axis=i)
+                     │       │    │                   │         └ 0
+                     │       │    │                   └ slice('参数设置', '学生学号', None)
+                     │       │    └ <attribute 'name' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+                     │       └ <pandas.core.indexing._LocIndexer object at 0x0000012159EC2220>
+                     └              1     2    3    4    5    6
+                       0                                       
+                       教师评价       NaN   NaN  NaN  NaN  NaN  NaN
+                       学生...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1102, in _getitem_axis
+    return self._get_slice_axis(key, axis=axis)
+           │    │               │         └ 0
+           │    │               └ slice('参数设置', '学生学号', None)
+           │    └ <function _LocIndexer._get_slice_axis at 0x00000121570E0EE0>
+           └ <pandas.core.indexing._LocIndexer object at 0x0000012159EC2310>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1136, in _get_slice_axis
+    indexer = labels.slice_indexer(
+              │      └ <function Index.slice_indexer at 0x0000012156F311F0>
+              └ Index([  '教师评价',   '学生学号',      nan,      nan, 20152516, 20162503, 20162504,
+                       20162505, 20162506, 20162507, 20162508, 2...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5277, in slice_indexer
+    start_slice, end_slice = self.slice_locs(start, end, step=step, kind=kind)
+                             │    │          │      │         │          └ 'loc'
+                             │    │          │      │         └ None
+                             │    │          │      └ '学生学号'
+                             │    │          └ '参数设置'
+                             │    └ <function Index.slice_locs at 0x0000012156F31550>
+                             └ Index([  '教师评价',   '学生学号',      nan,      nan, 20152516, 20162503, 20162504,
+                                      20162505, 20162506, 20162507, 20162508, 2...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5476, in slice_locs
+    start_slice = self.get_slice_bound(start, "left", kind)
+                  │    │               │              └ 'loc'
+                  │    │               └ '参数设置'
+                  │    └ <function Index.get_slice_bound at 0x0000012156F314C0>
+                  └ Index([  '教师评价',   '学生学号',      nan,      nan, 20152516, 20162503, 20162504,
+                           20162505, 20162506, 20162507, 20162508, 2...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5396, in get_slice_bound
+    raise err
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 5390, in get_slice_bound
+    slc = self.get_loc(label)
+          │    │       └ '参数设置'
+          │    └ <function Index.get_loc at 0x0000012156F1B9D0>
+          └ Index([  '教师评价',   '学生学号',      nan,      nan, 20152516, 20162503, 20162504,
+                   20162505, 20162506, 20162507, 20162508, 2...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+                   └ '参数设置'
+
+KeyError: '参数设置'
