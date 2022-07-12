@@ -1,0 +1,1247 @@
+2022-06-15 11:10:29.926 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 11:10:30.097 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.619  0.715  0.672
+20152878  0.800  0.498  0.936  0.824
+20162503  1.000  0.776  1.000  1.000
+20162504  0.936  0.696  1.000  0.728
+20162505  0.800  0.808  1.000  0.776
+20162506  0.600  0.664  0.904  1.000
+20162507  0.936  0.664  0.979  0.920
+20162508  1.000  0.672  0.915  0.984
+20162509  1.000  0.540  0.979  0.968
+20162511  0.936  0.672  1.000  1.000
+20162512  1.000  0.568  0.979  1.000
+20162513  1.000  0.704  0.957  0.632
+20162514  0.936  0.696  0.979  1.000
+20162515  0.936  0.776  0.800  0.832
+20162516  0.800  0.492  0.957  0.872
+20162517  1.000  0.600  0.861  1.000
+20162518  0.800  0.672  0.861  0.936
+20162519  0.936  0.568  0.957  0.984
+20162520  0.936  0.776  0.904  0.920
+20162522  0.800  0.542  0.904  1.000
+20162523  1.000  0.664  1.000  0.872
+20162524  1.000  0.640  0.957  0.848
+20162526  0.800  0.568  1.000  1.000
+20162527  1.000  0.632  1.000  1.000
+20162528  0.936  0.632  1.000  1.000
+20162529  0.800  0.672  1.000  0.920
+20162530  0.936  0.704  1.000  1.000
+20162531  1.000  0.704  1.000  1.000
+20162532  0.800  0.640  1.000  0.984
+20162533  1.000  0.632  0.957  1.000
+20162534  1.000  0.632  0.904  0.984
+20162536  0.936  0.776  0.957  0.984
+20162538  0.936  0.736  0.904  0.920
+20162539  0.936  0.808  0.957  1.000
+20162540  0.800  0.725  0.776  0.952
+20162541  0.936  0.704  0.957  0.832
+20162542  1.000  0.704  0.861  0.800
+20162543  1.000  0.604  1.000  1.000
+20162544  0.800  0.696  0.979  0.864
+平均值       0.917  0.663  0.943  0.923
+2022-06-15 11:10:30.097 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   23.0   26.0   23.0
+单项目标达成人数        38   13.0   39.0   37.0
+单项目标未达成人数        1   26.0    0.0    2.0
+所有目标超过平均值人数      7    NaN    NaN    NaN
+所有目标均达成人数       12    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 11:10:30.097 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+单项目标达成人数     97.44%  33.33%  100.00%  94.87%
+单项目标未达成人数     2.56%  66.67%    0.00%   5.13%
+2022-06-15 11:10:30.097 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    17.95%
+所有目标均达成人数      30.77%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 11:10:31.494 | ERROR    | src.to_excel:concat_index_df:204 - could not broadcast input array from shape (3,) into shape (2,)
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                        
+                                                                    │        │             │               │     │                  课程目标1         0.32    0.0   0.32  0...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.5   0.5
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001A8152409D0>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3  课程目标4
+                                          │        │           │                  │                    学生学号                                  
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.933  1.000
+                                          │        │           │                  │                    2015287...
+                                          │        │           │                  └ [            1     2     3     4
+                                          │        │           │                    学生学号                           
+                                          │        │           │                    20152516.0  5  10.0  14.0  20.0
+                                          │        │           │                    20152878.0  4   9.0  15.0  1...
+                                          │        │           └ [       1     2     3     4
+                                          │        │             题号                        
+                                          │        │             小题分数   5  10.0  15.0  20.0
+                                          │        │             课程目标1  1   0.0   0.0   0.0
+                                          │        │             课程目标2  0   1.0  ...
+                                          │        └ <function write_excel at 0x000001A81490ACA0>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 29, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    17.95%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      30.77%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  33.33%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   23.0   26.0   23.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   13.0   39.0   37.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.619  0.715  0.672
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.498  0.936  0.824
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.5   0.5
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                        
+                │                   │   │                │           │                  课程目标1         0.32    0.0   0.32  0...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]>
+                └ <function final_data_to_excel at 0x000001A81523D940>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 155, in final_data_to_excel
+    col_num = concat_index_df(sht, target_name[i], df_index_values, data_weight, single_target_data, df_test_weight, start_idx, start_col)
+              │               │    │           │   │                │            │                   │               │          └ 7
+              │               │    │           │   │                │            │                   │               └ 1
+              │               │    │           │   │                │            │                   └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+              │               │    │           │   │                │            │                     课程目标达成情况评价报告                        
+              │               │    │           │   │                │            │                     报告             0.5   0.5   0.5   0.5
+              │               │    │           │   │                │            │                     程序运行          ...
+              │               │    │           │   │                │            └ 课程目标达成情况评价报告     报告     答辩 教师评价 学生自评
+              │               │    │           │   │                │              20152516      1.000  0.400  0.8  0.6
+              │               │    │           │   │                │              20152878      0.900  0.800  0.3  0.3
+              │               │    │           │   │                │              20162503      ...
+              │               │    │           │   │                └ 考核成绩法    0.64
+              │               │    │           │   │                  教师评价     0.16
+              │               │    │           │   │                  学生自评      0.2
+              │               │    │           │   │                  Name: 权重值, dtype: object
+              │               │    │           │   └ ['教师评价', '学生自评']
+              │               │    │           └ 1
+              │               │    └ Index(['课程目标1', '课程目标2', '课程目标3', '课程目标4'], dtype='object', name='考核方式')
+              │               └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]达成度散点图>
+              └ <function concat_index_df at 0x000001A81523D9D0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 192, in concat_index_df
+    df_index.loc[4, 0:object_num - 1] = object_weight.values.tolist()                            # 写入客观评价权重
+    │        │        │                 │             └ <property object at 0x000001A87FEF81D0>
+    │        │        │                 └ 课程目标达成情况评价报告
+    │        │        │                   报告      0.5
+    │        │        │                   程序运行    0.3
+    │        │        │                   答辩      0.2
+    │        │        │                   Name: 课程目标2, dtype: object
+    │        │        └ 2
+    │        └ <property object at 0x000001A87FB9BAE0>
+    └      0     1     2     3    4      5
+      0  NaN   NaN   NaN   NaN  NaN  课程目标2
+      1  NaN  客观评价  教师评价  学生自评  达成度    平均值
+      2  NaN  0.64  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 692, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+    │    │                     │        │      │    └ <attribute 'name' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │                     │        │      └ <pandas.core.indexing._LocIndexer object at 0x000001A815686BD0>
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_with_indexer at 0x000001A87FBA70D0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x000001A815686AE0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1637, in _setitem_with_indexer
+    self._setitem_single_block(indexer, value, name)
+    │    │                     │        │      └ 'loc'
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_single_block at 0x000001A87FBA73A0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x000001A815686AE0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1861, in _setitem_single_block
+    self.obj._mgr = self.obj._mgr.setitem(indexer=indexer, value=value)
+    │    │          │    │                        │              └ [0.5, 0.3, 0.2]
+    │    │          │    │                        └ (4, slice(0, 2, None))
+    │    │          │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │          └ <pandas.core.indexing._iLocIndexer object at 0x000001A815686AE0>
+    │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    └ <pandas.core.indexing._iLocIndexer object at 0x000001A815686AE0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 568, in setitem
+    return self.apply("setitem", indexer=indexer, value=value)
+           │    │                        │              └ [0.5, 0.3, 0.2]
+           │    │                        └ (4, slice(0, 2, None))
+           │    └ <function BlockManager.apply at 0x000001A87FC3A0D0>
+           └ BlockManager
+             Items: RangeIndex(start=0, stop=6, step=1)
+             Axis 1: RangeIndex(start=0, stop=5, step=1)
+             ObjectBlock: slice(0, 6, ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 427, in apply
+    applied = getattr(b, f)(**kwargs)
+                      │  │    └ {'indexer': (4, slice(0, 2, None)), 'value': [0.5, 0.3, 0.2]}
+                      │  └ 'setitem'
+                      └ ObjectBlock: slice(0, 6, 1), 6 x 5, dtype: object
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\blocks.py", line 1035, in setitem
+    values[indexer] = value
+    │      │          └ [0.5, 0.3, 0.2]
+    │      └ (4, slice(0, 2, None))
+    └ array([[nan, nan, nan, nan, nan, '课程目标2'],
+             [nan, '客观评价', '教师评价', '学生自评', '达成度', '平均值'],
+             [nan, 0.640000000000000...
+
+ValueError: could not broadcast input array from shape (3,) into shape (2,)
+2022-06-15 11:13:43.269 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 11:13:43.441 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.619  0.715  0.672
+20152878  0.800  0.498  0.936  0.824
+20162503  1.000  0.776  1.000  1.000
+20162504  0.936  0.696  1.000  0.728
+20162505  0.800  0.808  1.000  0.776
+20162506  0.600  0.664  0.904  1.000
+20162507  0.936  0.664  0.979  0.920
+20162508  1.000  0.672  0.915  0.984
+20162509  1.000  0.540  0.979  0.968
+20162511  0.936  0.672  1.000  1.000
+20162512  1.000  0.568  0.979  1.000
+20162513  1.000  0.704  0.957  0.632
+20162514  0.936  0.696  0.979  1.000
+20162515  0.936  0.776  0.800  0.832
+20162516  0.800  0.492  0.957  0.872
+20162517  1.000  0.600  0.861  1.000
+20162518  0.800  0.672  0.861  0.936
+20162519  0.936  0.568  0.957  0.984
+20162520  0.936  0.776  0.904  0.920
+20162522  0.800  0.542  0.904  1.000
+20162523  1.000  0.664  1.000  0.872
+20162524  1.000  0.640  0.957  0.848
+20162526  0.800  0.568  1.000  1.000
+20162527  1.000  0.632  1.000  1.000
+20162528  0.936  0.632  1.000  1.000
+20162529  0.800  0.672  1.000  0.920
+20162530  0.936  0.704  1.000  1.000
+20162531  1.000  0.704  1.000  1.000
+20162532  0.800  0.640  1.000  0.984
+20162533  1.000  0.632  0.957  1.000
+20162534  1.000  0.632  0.904  0.984
+20162536  0.936  0.776  0.957  0.984
+20162538  0.936  0.736  0.904  0.920
+20162539  0.936  0.808  0.957  1.000
+20162540  0.800  0.725  0.776  0.952
+20162541  0.936  0.704  0.957  0.832
+20162542  1.000  0.704  0.861  0.800
+20162543  1.000  0.604  1.000  1.000
+20162544  0.800  0.696  0.979  0.864
+平均值       0.917  0.663  0.943  0.923
+2022-06-15 11:13:43.441 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   23.0   26.0   23.0
+单项目标达成人数        38   13.0   39.0   37.0
+单项目标未达成人数        1   26.0    0.0    2.0
+所有目标超过平均值人数      7    NaN    NaN    NaN
+所有目标均达成人数       12    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 11:13:43.441 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+单项目标达成人数     97.44%  33.33%  100.00%  94.87%
+单项目标未达成人数     2.56%  66.67%    0.00%   5.13%
+2022-06-15 11:13:43.441 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    17.95%
+所有目标均达成人数      30.77%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 11:13:44.779 | ERROR    | src.to_excel:concat_index_df:206 - could not broadcast input array from shape (3,) into shape (2,)
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                        
+                                                                    │        │             │               │     │                  课程目标1         0.32    0.0   0.32  0...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.5   0.5
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x0000020CBC5819D0>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3  课程目标4
+                                          │        │           │                  │                    学生学号                                  
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.933  1.000
+                                          │        │           │                  │                    2015287...
+                                          │        │           │                  └ [            1     2     3     4
+                                          │        │           │                    学生学号                           
+                                          │        │           │                    20152516.0  5  10.0  14.0  20.0
+                                          │        │           │                    20152878.0  4   9.0  15.0  1...
+                                          │        │           └ [       1     2     3     4
+                                          │        │             题号                        
+                                          │        │             小题分数   5  10.0  15.0  20.0
+                                          │        │             课程目标1  1   0.0   0.0   0.0
+                                          │        │             课程目标2  0   1.0  ...
+                                          │        └ <function write_excel at 0x0000020CB999CCA0>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 29, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    17.95%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      30.77%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  33.33%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   23.0   26.0   23.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   13.0   39.0   37.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.619  0.715  0.672
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.498  0.936  0.824
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.5   0.5
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                        
+                │                   │   │                │           │                  课程目标1         0.32    0.0   0.32  0...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]>
+                └ <function final_data_to_excel at 0x0000020CBC57E940>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 155, in final_data_to_excel
+    col_num = concat_index_df(sht, target_name[i], df_index_values, data_weight, single_target_data, df_test_weight, start_idx, start_col)
+              │               │    │           │   │                │            │                   │               │          └ 7
+              │               │    │           │   │                │            │                   │               └ 1
+              │               │    │           │   │                │            │                   └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+              │               │    │           │   │                │            │                     课程目标达成情况评价报告                        
+              │               │    │           │   │                │            │                     报告             0.5   0.5   0.5   0.5
+              │               │    │           │   │                │            │                     程序运行          ...
+              │               │    │           │   │                │            └ 课程目标达成情况评价报告     报告     答辩 教师评价 学生自评
+              │               │    │           │   │                │              20152516      1.000  0.400  0.8  0.6
+              │               │    │           │   │                │              20152878      0.900  0.800  0.3  0.3
+              │               │    │           │   │                │              20162503      ...
+              │               │    │           │   │                └ 考核成绩法    0.64
+              │               │    │           │   │                  教师评价     0.16
+              │               │    │           │   │                  学生自评      0.2
+              │               │    │           │   │                  Name: 权重值, dtype: object
+              │               │    │           │   └ ['教师评价', '学生自评']
+              │               │    │           └ 1
+              │               │    └ Index(['课程目标1', '课程目标2', '课程目标3', '课程目标4'], dtype='object', name='考核方式')
+              │               └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]达成度散点图>
+              └ <function concat_index_df at 0x0000020CBC57E9D0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 194, in concat_index_df
+    df_index.loc[4, 0:object_num - 1] = object_weight.values.tolist()                            # 写入客观评价权重
+    │        │        │                 │             └ <property object at 0x0000020CB9B78220>
+    │        │        │                 └ 课程目标达成情况评价报告
+    │        │        │                   报告      0.5
+    │        │        │                   程序运行    0.3
+    │        │        │                   答辩      0.2
+    │        │        │                   Name: 课程目标2, dtype: object
+    │        │        └ 2
+    │        └ <property object at 0x0000020CB981BBD0>
+    └      0     1     2     3    4      5
+      0  NaN   NaN   NaN   NaN  NaN  课程目标2
+      1  NaN  客观评价  教师评价  学生自评  达成度    平均值
+      2  NaN  0.64  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 692, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+    │    │                     │        │      │    └ <attribute 'name' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │                     │        │      └ <pandas.core.indexing._LocIndexer object at 0x0000020CBC9B8AE0>
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_with_indexer at 0x0000020CB98270D0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x0000020CBC9B89F0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1637, in _setitem_with_indexer
+    self._setitem_single_block(indexer, value, name)
+    │    │                     │        │      └ 'loc'
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_single_block at 0x0000020CB98273A0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x0000020CBC9B89F0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1861, in _setitem_single_block
+    self.obj._mgr = self.obj._mgr.setitem(indexer=indexer, value=value)
+    │    │          │    │                        │              └ [0.5, 0.3, 0.2]
+    │    │          │    │                        └ (4, slice(0, 2, None))
+    │    │          │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │          └ <pandas.core.indexing._iLocIndexer object at 0x0000020CBC9B89F0>
+    │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    └ <pandas.core.indexing._iLocIndexer object at 0x0000020CBC9B89F0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 568, in setitem
+    return self.apply("setitem", indexer=indexer, value=value)
+           │    │                        │              └ [0.5, 0.3, 0.2]
+           │    │                        └ (4, slice(0, 2, None))
+           │    └ <function BlockManager.apply at 0x0000020CB98BA0D0>
+           └ BlockManager
+             Items: RangeIndex(start=0, stop=6, step=1)
+             Axis 1: RangeIndex(start=0, stop=5, step=1)
+             ObjectBlock: slice(0, 6, ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 427, in apply
+    applied = getattr(b, f)(**kwargs)
+                      │  │    └ {'indexer': (4, slice(0, 2, None)), 'value': [0.5, 0.3, 0.2]}
+                      │  └ 'setitem'
+                      └ ObjectBlock: slice(0, 6, 1), 6 x 5, dtype: object
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\blocks.py", line 1035, in setitem
+    values[indexer] = value
+    │      │          └ [0.5, 0.3, 0.2]
+    │      └ (4, slice(0, 2, None))
+    └ array([[nan, nan, nan, nan, nan, '课程目标2'],
+             [nan, '客观评价', '教师评价', '学生自评', '达成度', '平均值'],
+             [nan, 0.640000000000000...
+
+ValueError: could not broadcast input array from shape (3,) into shape (2,)
+2022-06-15 11:15:20.667 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 11:15:20.838 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.619  0.715  0.672
+20152878  0.800  0.498  0.936  0.824
+20162503  1.000  0.776  1.000  1.000
+20162504  0.936  0.696  1.000  0.728
+20162505  0.800  0.808  1.000  0.776
+20162506  0.600  0.664  0.904  1.000
+20162507  0.936  0.664  0.979  0.920
+20162508  1.000  0.672  0.915  0.984
+20162509  1.000  0.540  0.979  0.968
+20162511  0.936  0.672  1.000  1.000
+20162512  1.000  0.568  0.979  1.000
+20162513  1.000  0.704  0.957  0.632
+20162514  0.936  0.696  0.979  1.000
+20162515  0.936  0.776  0.800  0.832
+20162516  0.800  0.492  0.957  0.872
+20162517  1.000  0.600  0.861  1.000
+20162518  0.800  0.672  0.861  0.936
+20162519  0.936  0.568  0.957  0.984
+20162520  0.936  0.776  0.904  0.920
+20162522  0.800  0.542  0.904  1.000
+20162523  1.000  0.664  1.000  0.872
+20162524  1.000  0.640  0.957  0.848
+20162526  0.800  0.568  1.000  1.000
+20162527  1.000  0.632  1.000  1.000
+20162528  0.936  0.632  1.000  1.000
+20162529  0.800  0.672  1.000  0.920
+20162530  0.936  0.704  1.000  1.000
+20162531  1.000  0.704  1.000  1.000
+20162532  0.800  0.640  1.000  0.984
+20162533  1.000  0.632  0.957  1.000
+20162534  1.000  0.632  0.904  0.984
+20162536  0.936  0.776  0.957  0.984
+20162538  0.936  0.736  0.904  0.920
+20162539  0.936  0.808  0.957  1.000
+20162540  0.800  0.725  0.776  0.952
+20162541  0.936  0.704  0.957  0.832
+20162542  1.000  0.704  0.861  0.800
+20162543  1.000  0.604  1.000  1.000
+20162544  0.800  0.696  0.979  0.864
+平均值       0.917  0.663  0.943  0.923
+2022-06-15 11:15:20.838 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   23.0   26.0   23.0
+单项目标达成人数        38   13.0   39.0   37.0
+单项目标未达成人数        1   26.0    0.0    2.0
+所有目标超过平均值人数      7    NaN    NaN    NaN
+所有目标均达成人数       12    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 11:15:20.854 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+单项目标达成人数     97.44%  33.33%  100.00%  94.87%
+单项目标未达成人数     2.56%  66.67%    0.00%   5.13%
+2022-06-15 11:15:20.854 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    17.95%
+所有目标均达成人数      30.77%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 11:15:22.340 | ERROR    | src.to_excel:concat_index_df:206 - could not broadcast input array from shape (3,) into shape (2,)
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                        
+                                                                    │        │             │               │     │                  课程目标1         0.32    0.0   0.32  0...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.5   0.5
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x0000026A4CD819D0>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3  课程目标4
+                                          │        │           │                  │                    学生学号                                  
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.933  1.000
+                                          │        │           │                  │                    2015287...
+                                          │        │           │                  └ [            1     2     3     4
+                                          │        │           │                    学生学号                           
+                                          │        │           │                    20152516.0  5  10.0  14.0  20.0
+                                          │        │           │                    20152878.0  4   9.0  15.0  1...
+                                          │        │           └ [       1     2     3     4
+                                          │        │             题号                        
+                                          │        │             小题分数   5  10.0  15.0  20.0
+                                          │        │             课程目标1  1   0.0   0.0   0.0
+                                          │        │             课程目标2  0   1.0  ...
+                                          │        └ <function write_excel at 0x0000026A4A16CCA0>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 29, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    17.95%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      30.77%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  33.33%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   23.0   26.0   23.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   13.0   39.0   37.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.619  0.715  0.672
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.498  0.936  0.824
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.5   0.5
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                        
+                │                   │   │                │           │                  课程目标1         0.32    0.0   0.32  0...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]>
+                └ <function final_data_to_excel at 0x0000026A4CD7E940>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 155, in final_data_to_excel
+    col_num = concat_index_df(sht, target_name[i], df_index_values, data_weight, single_target_data, df_test_weight, start_idx, start_col)
+              │               │    │           │   │                │            │                   │               │          └ 7
+              │               │    │           │   │                │            │                   │               └ 1
+              │               │    │           │   │                │            │                   └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+              │               │    │           │   │                │            │                     课程目标达成情况评价报告                        
+              │               │    │           │   │                │            │                     报告             0.5   0.5   0.5   0.5
+              │               │    │           │   │                │            │                     程序运行          ...
+              │               │    │           │   │                │            └ 课程目标达成情况评价报告     报告     答辩 教师评价 学生自评
+              │               │    │           │   │                │              20152516      1.000  0.400  0.8  0.6
+              │               │    │           │   │                │              20152878      0.900  0.800  0.3  0.3
+              │               │    │           │   │                │              20162503      ...
+              │               │    │           │   │                └ 考核成绩法    0.64
+              │               │    │           │   │                  教师评价     0.16
+              │               │    │           │   │                  学生自评      0.2
+              │               │    │           │   │                  Name: 权重值, dtype: object
+              │               │    │           │   └ ['教师评价', '学生自评']
+              │               │    │           └ 1
+              │               │    └ Index(['课程目标1', '课程目标2', '课程目标3', '课程目标4'], dtype='object', name='考核方式')
+              │               └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]达成度散点图>
+              └ <function concat_index_df at 0x0000026A4CD7E9D0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 194, in concat_index_df
+    df_index.loc[4, 0:object_num - 1] = object_weight.values.tolist()                            # 写入客观评价权重
+    │        │        │                 │             └ <property object at 0x0000026A4A3880E0>
+    │        │        │                 └ 课程目标达成情况评价报告
+    │        │        │                   报告      0.5
+    │        │        │                   程序运行    0.3
+    │        │        │                   答辩      0.2
+    │        │        │                   Name: 课程目标2, dtype: object
+    │        │        └ 2
+    │        └ <property object at 0x0000026A4A02B9F0>
+    └      0     1     2     3    4      5
+      0  NaN   NaN   NaN   NaN  NaN  课程目标2
+      1  NaN  客观评价  教师评价  学生自评  达成度    平均值
+      2  NaN  0.64  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 692, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+    │    │                     │        │      │    └ <attribute 'name' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │                     │        │      └ <pandas.core.indexing._LocIndexer object at 0x0000026A4D1C8860>
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_with_indexer at 0x0000026A4A0360D0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x0000026A4D1C8900>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1637, in _setitem_with_indexer
+    self._setitem_single_block(indexer, value, name)
+    │    │                     │        │      └ 'loc'
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_single_block at 0x0000026A4A0363A0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x0000026A4D1C8900>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1861, in _setitem_single_block
+    self.obj._mgr = self.obj._mgr.setitem(indexer=indexer, value=value)
+    │    │          │    │                        │              └ [0.5, 0.3, 0.2]
+    │    │          │    │                        └ (4, slice(0, 2, None))
+    │    │          │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │          └ <pandas.core.indexing._iLocIndexer object at 0x0000026A4D1C8900>
+    │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    └ <pandas.core.indexing._iLocIndexer object at 0x0000026A4D1C8900>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 568, in setitem
+    return self.apply("setitem", indexer=indexer, value=value)
+           │    │                        │              └ [0.5, 0.3, 0.2]
+           │    │                        └ (4, slice(0, 2, None))
+           │    └ <function BlockManager.apply at 0x0000026A4A0CB0D0>
+           └ BlockManager
+             Items: RangeIndex(start=0, stop=6, step=1)
+             Axis 1: RangeIndex(start=0, stop=5, step=1)
+             ObjectBlock: slice(0, 6, ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 427, in apply
+    applied = getattr(b, f)(**kwargs)
+                      │  │    └ {'indexer': (4, slice(0, 2, None)), 'value': [0.5, 0.3, 0.2]}
+                      │  └ 'setitem'
+                      └ ObjectBlock: slice(0, 6, 1), 6 x 5, dtype: object
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\blocks.py", line 1035, in setitem
+    values[indexer] = value
+    │      │          └ [0.5, 0.3, 0.2]
+    │      └ (4, slice(0, 2, None))
+    └ array([[nan, nan, nan, nan, nan, '课程目标2'],
+             [nan, '客观评价', '教师评价', '学生自评', '达成度', '平均值'],
+             [nan, 0.640000000000000...
+
+ValueError: could not broadcast input array from shape (3,) into shape (2,)
+2022-06-15 11:16:22.271 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 11:16:22.443 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.619  0.715  0.672
+20152878  0.800  0.498  0.936  0.824
+20162503  1.000  0.776  1.000  1.000
+20162504  0.936  0.696  1.000  0.728
+20162505  0.800  0.808  1.000  0.776
+20162506  0.600  0.664  0.904  1.000
+20162507  0.936  0.664  0.979  0.920
+20162508  1.000  0.672  0.915  0.984
+20162509  1.000  0.540  0.979  0.968
+20162511  0.936  0.672  1.000  1.000
+20162512  1.000  0.568  0.979  1.000
+20162513  1.000  0.704  0.957  0.632
+20162514  0.936  0.696  0.979  1.000
+20162515  0.936  0.776  0.800  0.832
+20162516  0.800  0.492  0.957  0.872
+20162517  1.000  0.600  0.861  1.000
+20162518  0.800  0.672  0.861  0.936
+20162519  0.936  0.568  0.957  0.984
+20162520  0.936  0.776  0.904  0.920
+20162522  0.800  0.542  0.904  1.000
+20162523  1.000  0.664  1.000  0.872
+20162524  1.000  0.640  0.957  0.848
+20162526  0.800  0.568  1.000  1.000
+20162527  1.000  0.632  1.000  1.000
+20162528  0.936  0.632  1.000  1.000
+20162529  0.800  0.672  1.000  0.920
+20162530  0.936  0.704  1.000  1.000
+20162531  1.000  0.704  1.000  1.000
+20162532  0.800  0.640  1.000  0.984
+20162533  1.000  0.632  0.957  1.000
+20162534  1.000  0.632  0.904  0.984
+20162536  0.936  0.776  0.957  0.984
+20162538  0.936  0.736  0.904  0.920
+20162539  0.936  0.808  0.957  1.000
+20162540  0.800  0.725  0.776  0.952
+20162541  0.936  0.704  0.957  0.832
+20162542  1.000  0.704  0.861  0.800
+20162543  1.000  0.604  1.000  1.000
+20162544  0.800  0.696  0.979  0.864
+平均值       0.917  0.663  0.943  0.923
+2022-06-15 11:16:22.443 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   23.0   26.0   23.0
+单项目标达成人数        38   13.0   39.0   37.0
+单项目标未达成人数        1   26.0    0.0    2.0
+所有目标超过平均值人数      7    NaN    NaN    NaN
+所有目标均达成人数       12    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 11:16:22.443 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+单项目标达成人数     97.44%  33.33%  100.00%  94.87%
+单项目标未达成人数     2.56%  66.67%    0.00%   5.13%
+2022-06-15 11:16:22.443 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    17.95%
+所有目标均达成人数      30.77%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 11:16:24.021 | ERROR    | src.to_excel:concat_index_df:207 - could not broadcast input array from shape (3,) into shape (2,)
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                        
+                                                                    │        │             │               │     │                  课程目标1         0.32    0.0   0.32  0...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.5   0.5
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x0000021AA2FB19D0>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3  课程目标4
+                                          │        │           │                  │                    学生学号                                  
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.933  1.000
+                                          │        │           │                  │                    2015287...
+                                          │        │           │                  └ [            1     2     3     4
+                                          │        │           │                    学生学号                           
+                                          │        │           │                    20152516.0  5  10.0  14.0  20.0
+                                          │        │           │                    20152878.0  4   9.0  15.0  1...
+                                          │        │           └ [       1     2     3     4
+                                          │        │             题号                        
+                                          │        │             小题分数   5  10.0  15.0  20.0
+                                          │        │             课程目标1  1   0.0   0.0   0.0
+                                          │        │             课程目标2  0   1.0  ...
+                                          │        └ <function write_excel at 0x0000021AA039CCA0>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 29, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    17.95%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      30.77%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  33.33%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   23.0   26.0   23.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   13.0   39.0   37.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.619  0.715  0.672
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.498  0.936  0.824
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.5   0.5
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                        
+                │                   │   │                │           │                  课程目标1         0.32    0.0   0.32  0...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]>
+                └ <function final_data_to_excel at 0x0000021AA2FAC940>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 155, in final_data_to_excel
+    col_num = concat_index_df(sht, target_name[i], df_index_values, data_weight, single_target_data, df_test_weight, start_idx, start_col)
+              │               │    │           │   │                │            │                   │               │          └ 7
+              │               │    │           │   │                │            │                   │               └ 1
+              │               │    │           │   │                │            │                   └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+              │               │    │           │   │                │            │                     课程目标达成情况评价报告                        
+              │               │    │           │   │                │            │                     报告             0.5   0.5   0.5   0.5
+              │               │    │           │   │                │            │                     程序运行          ...
+              │               │    │           │   │                │            └ 课程目标达成情况评价报告     报告     答辩 教师评价 学生自评
+              │               │    │           │   │                │              20152516      1.000  0.400  0.8  0.6
+              │               │    │           │   │                │              20152878      0.900  0.800  0.3  0.3
+              │               │    │           │   │                │              20162503      ...
+              │               │    │           │   │                └ 考核成绩法    0.64
+              │               │    │           │   │                  教师评价     0.16
+              │               │    │           │   │                  学生自评      0.2
+              │               │    │           │   │                  Name: 权重值, dtype: object
+              │               │    │           │   └ ['教师评价', '学生自评']
+              │               │    │           └ 1
+              │               │    └ Index(['课程目标1', '课程目标2', '课程目标3', '课程目标4'], dtype='object', name='考核方式')
+              │               └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]达成度散点图>
+              └ <function concat_index_df at 0x0000021AA2FAC9D0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 195, in concat_index_df
+    df_index.loc[4, 0:object_num - 1] = object_weight.values.tolist()                            # 写入客观评价权重
+    │        │        │                 │             └ <property object at 0x0000021AA05B7220>
+    │        │        │                 └ 课程目标达成情况评价报告
+    │        │        │                   报告      0.5
+    │        │        │                   程序运行    0.3
+    │        │        │                   答辩      0.2
+    │        │        │                   Name: 课程目标2, dtype: object
+    │        │        └ 2
+    │        └ <property object at 0x0000021AA025BBD0>
+    └      0     1     2     3    4      5
+      0  NaN   NaN   NaN   NaN  NaN  课程目标2
+      1  NaN  客观评价  教师评价  学生自评  达成度    平均值
+      2  NaN  0.64  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 692, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+    │    │                     │        │      │    └ <attribute 'name' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │                     │        │      └ <pandas.core.indexing._LocIndexer object at 0x0000021AA33F88B0>
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_with_indexer at 0x0000021AA02670D0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x0000021AA33F8950>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1637, in _setitem_with_indexer
+    self._setitem_single_block(indexer, value, name)
+    │    │                     │        │      └ 'loc'
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_single_block at 0x0000021AA02673A0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x0000021AA33F8950>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1861, in _setitem_single_block
+    self.obj._mgr = self.obj._mgr.setitem(indexer=indexer, value=value)
+    │    │          │    │                        │              └ [0.5, 0.3, 0.2]
+    │    │          │    │                        └ (4, slice(0, 2, None))
+    │    │          │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │          └ <pandas.core.indexing._iLocIndexer object at 0x0000021AA33F8950>
+    │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    └ <pandas.core.indexing._iLocIndexer object at 0x0000021AA33F8950>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 568, in setitem
+    return self.apply("setitem", indexer=indexer, value=value)
+           │    │                        │              └ [0.5, 0.3, 0.2]
+           │    │                        └ (4, slice(0, 2, None))
+           │    └ <function BlockManager.apply at 0x0000021AA02FA0D0>
+           └ BlockManager
+             Items: RangeIndex(start=0, stop=6, step=1)
+             Axis 1: RangeIndex(start=0, stop=5, step=1)
+             ObjectBlock: slice(0, 6, ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 427, in apply
+    applied = getattr(b, f)(**kwargs)
+                      │  │    └ {'indexer': (4, slice(0, 2, None)), 'value': [0.5, 0.3, 0.2]}
+                      │  └ 'setitem'
+                      └ ObjectBlock: slice(0, 6, 1), 6 x 5, dtype: object
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\blocks.py", line 1035, in setitem
+    values[indexer] = value
+    │      │          └ [0.5, 0.3, 0.2]
+    │      └ (4, slice(0, 2, None))
+    └ array([[nan, nan, nan, nan, nan, '课程目标2'],
+             [nan, '客观评价', '教师评价', '学生自评', '达成度', '平均值'],
+             [nan, 0.640000000000000...
+
+ValueError: could not broadcast input array from shape (3,) into shape (2,)
+2022-06-15 11:18:39.672 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 11:18:39.844 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.619  0.715  0.672
+20152878  0.800  0.498  0.936  0.824
+20162503  1.000  0.776  1.000  1.000
+20162504  0.936  0.696  1.000  0.728
+20162505  0.800  0.808  1.000  0.776
+20162506  0.600  0.664  0.904  1.000
+20162507  0.936  0.664  0.979  0.920
+20162508  1.000  0.672  0.915  0.984
+20162509  1.000  0.540  0.979  0.968
+20162511  0.936  0.672  1.000  1.000
+20162512  1.000  0.568  0.979  1.000
+20162513  1.000  0.704  0.957  0.632
+20162514  0.936  0.696  0.979  1.000
+20162515  0.936  0.776  0.800  0.832
+20162516  0.800  0.492  0.957  0.872
+20162517  1.000  0.600  0.861  1.000
+20162518  0.800  0.672  0.861  0.936
+20162519  0.936  0.568  0.957  0.984
+20162520  0.936  0.776  0.904  0.920
+20162522  0.800  0.542  0.904  1.000
+20162523  1.000  0.664  1.000  0.872
+20162524  1.000  0.640  0.957  0.848
+20162526  0.800  0.568  1.000  1.000
+20162527  1.000  0.632  1.000  1.000
+20162528  0.936  0.632  1.000  1.000
+20162529  0.800  0.672  1.000  0.920
+20162530  0.936  0.704  1.000  1.000
+20162531  1.000  0.704  1.000  1.000
+20162532  0.800  0.640  1.000  0.984
+20162533  1.000  0.632  0.957  1.000
+20162534  1.000  0.632  0.904  0.984
+20162536  0.936  0.776  0.957  0.984
+20162538  0.936  0.736  0.904  0.920
+20162539  0.936  0.808  0.957  1.000
+20162540  0.800  0.725  0.776  0.952
+20162541  0.936  0.704  0.957  0.832
+20162542  1.000  0.704  0.861  0.800
+20162543  1.000  0.604  1.000  1.000
+20162544  0.800  0.696  0.979  0.864
+平均值       0.917  0.663  0.943  0.923
+2022-06-15 11:18:39.844 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   23.0   26.0   23.0
+单项目标达成人数        38   13.0   39.0   37.0
+单项目标未达成人数        1   26.0    0.0    2.0
+所有目标超过平均值人数      7    NaN    NaN    NaN
+所有目标均达成人数       12    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 11:18:39.844 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+单项目标达成人数     97.44%  33.33%  100.00%  94.87%
+单项目标未达成人数     2.56%  66.67%    0.00%   5.13%
+2022-06-15 11:18:39.844 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    17.95%
+所有目标均达成人数      30.77%
+所有目标均未达成人数      0.00%
+dtype: object
+2022-06-15 11:18:41.275 | ERROR    | src.to_excel:concat_index_df:208 - could not broadcast input array from shape (3,) into shape (2,)
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                        
+                                                                    │        │             │               │     │                  课程目标1         0.32    0.0   0.32  0...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.5   0.5
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x00000261E5C719D0>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 112, in operate_sheet
+    start_col, new_path, object_all_out = to_excel.write_excel(object_all_params, object_all_scores, object_evaluation_achieve,
+                                          │        │           │                  │                  └ [题号          课程目标1  课程目标2  课程目标3  课程目标4
+                                          │        │           │                  │                    学生学号                                  
+                                          │        │           │                  │                    20152516.0  1.000  1.000  0.933  1.000
+                                          │        │           │                  │                    2015287...
+                                          │        │           │                  └ [            1     2     3     4
+                                          │        │           │                    学生学号                           
+                                          │        │           │                    20152516.0  5  10.0  14.0  20.0
+                                          │        │           │                    20152878.0  4   9.0  15.0  1...
+                                          │        │           └ [       1     2     3     4
+                                          │        │             题号                        
+                                          │        │             小题分数   5  10.0  15.0  20.0
+                                          │        │             课程目标1  1   0.0   0.0   0.0
+                                          │        │             课程目标2  0   1.0  ...
+                                          │        └ <function write_excel at 0x00000261E306CCA0>
+                                          └ <module 'src.to_excel' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\to_excel.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 29, in write_excel
+    start_col = final_data_to_excel(wb, all_target_data, student_id, df_index_values, df_weight, data_weight, df_test_weight, final_target_achieve, static_final_data, static_data_single_odd, static_data_all_odd)
+                │                   │   │                │           │                │          │            │               │                     │                  │                       └ 所有目标超过平均值人数    17.95%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均达成人数      30.77%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         所有目标均未达成人数      0.00%
+                │                   │   │                │           │                │          │            │               │                     │                  │                         dtype: object
+                │                   │   │                │           │                │          │            │               │                     │                  └ 考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标超过平均值人数  71.79%  58.97%   66.67%  58.97%
+                │                   │   │                │           │                │          │            │               │                     │                    单项目标达成人数     97.44%  33.33%  100.00...
+                │                   │   │                │           │                │          │            │               │                     └ 考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │               │                       单项目标超过平均值人数     28   23.0   26.0   23.0
+                │                   │   │                │           │                │          │            │               │                       单项目标达成人数        38   13.0   39.0   37.0
+                │                   │   │                │           │                │          │            │               │                       单项目标未...
+                │                   │   │                │           │                │          │            │               └           课程目标1  课程目标2  课程目标3  课程目标4
+                │                   │   │                │           │                │          │            │                 20152516  1.000  0.619  0.715  0.672
+                │                   │   │                │           │                │          │            │                 20152878  0.800  0.498  0.936  0.824
+                │                   │   │                │           │                │          │            │                 20162503  1.00...
+                │                   │   │                │           │                │          │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                │                   │   │                │           │                │          │              课程目标达成情况评价报告                        
+                │                   │   │                │           │                │          │              报告             0.5   0.5   0.5   0.5
+                │                   │   │                │           │                │          │              程序运行          ...
+                │                   │   │                │           │                │          └ 考核成绩法    0.64
+                │                   │   │                │           │                │            教师评价     0.16
+                │                   │   │                │           │                │            学生自评      0.2
+                │                   │   │                │           │                │            Name: 权重值, dtype: object
+                │                   │   │                │           │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                │                   │   │                │           │                  考核方式                                        
+                │                   │   │                │           │                  课程目标1         0.32    0.0   0.32  0...
+                │                   │   │                │           └ ['教师评价', '学生自评']
+                │                   │   │                └ [20152516, 20152878, 20162503, 20162504, 20162505, 20162506, 20162507, 20162508, 20162509, 20162511, 20162512, 20162513, 2016...
+                │                   │   └ [课程目标达成情况评价报告     报告 程序运行     答辩 教师评价 学生自评
+                │                   │     20152516      1.000  nan  1.000    1    1
+                │                   │     20152878      0.800  nan  0.800  0.8  0....
+                │                   └ <Book [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]>
+                └ <function final_data_to_excel at 0x00000261E5C6E940>
+
+  File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 155, in final_data_to_excel
+    col_num = concat_index_df(sht, target_name[i], df_index_values, data_weight, single_target_data, df_test_weight, start_idx, start_col)
+              │               │    │           │   │                │            │                   │               │          └ 7
+              │               │    │           │   │                │            │                   │               └ 1
+              │               │    │           │   │                │            │                   └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+              │               │    │           │   │                │            │                     课程目标达成情况评价报告                        
+              │               │    │           │   │                │            │                     报告             0.5   0.5   0.5   0.5
+              │               │    │           │   │                │            │                     程序运行          ...
+              │               │    │           │   │                │            └ 课程目标达成情况评价报告     报告     答辩 教师评价 学生自评
+              │               │    │           │   │                │              20152516      1.000  0.400  0.8  0.6
+              │               │    │           │   │                │              20152878      0.900  0.800  0.3  0.3
+              │               │    │           │   │                │              20162503      ...
+              │               │    │           │   │                └ 考核成绩法    0.64
+              │               │    │           │   │                  教师评价     0.16
+              │               │    │           │   │                  学生自评      0.2
+              │               │    │           │   │                  Name: 权重值, dtype: object
+              │               │    │           │   └ ['教师评价', '学生自评']
+              │               │    │           └ 1
+              │               │    └ Index(['课程目标1', '课程目标2', '课程目标3', '课程目标4'], dtype='object', name='考核方式')
+              │               └ <Sheet [41-课程目标达成度评价报告-软件工程-工程技能培训160408 (2).xls]达成度散点图>
+              └ <function concat_index_df at 0x00000261E5C6E9D0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\to_excel.py", line 196, in concat_index_df
+    df_index.loc[4, 0:object_num - 1] = object_weight.values.tolist()                            # 写入客观评价权重
+    │        │        │                 │             └ <property object at 0x00000261E32481D0>
+    │        │        │                 └ 课程目标达成情况评价报告
+    │        │        │                   报告      0.5
+    │        │        │                   程序运行    0.3
+    │        │        │                   答辩      0.2
+    │        │        │                   Name: 课程目标2, dtype: object
+    │        │        └ 2
+    │        └ <property object at 0x00000261E2EEBB30>
+    └      0     1     2     3    4      5
+      0  NaN   NaN   NaN   NaN  NaN  课程目标2
+      1  NaN  客观评价  教师评价  学生自评  达成度    平均值
+      2  NaN  0.64  ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 692, in __setitem__
+    iloc._setitem_with_indexer(indexer, value, self.name)
+    │    │                     │        │      │    └ <attribute 'name' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │                     │        │      └ <pandas.core.indexing._LocIndexer object at 0x00000261E6087860>
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_with_indexer at 0x00000261E2EF40D0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x00000261E6087900>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1637, in _setitem_with_indexer
+    self._setitem_single_block(indexer, value, name)
+    │    │                     │        │      └ 'loc'
+    │    │                     │        └ [0.5, 0.3, 0.2]
+    │    │                     └ (4, slice(0, 2, None))
+    │    └ <function _iLocIndexer._setitem_single_block at 0x00000261E2EF43A0>
+    └ <pandas.core.indexing._iLocIndexer object at 0x00000261E6087900>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1861, in _setitem_single_block
+    self.obj._mgr = self.obj._mgr.setitem(indexer=indexer, value=value)
+    │    │          │    │                        │              └ [0.5, 0.3, 0.2]
+    │    │          │    │                        └ (4, slice(0, 2, None))
+    │    │          │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    │    │          └ <pandas.core.indexing._iLocIndexer object at 0x00000261E6087900>
+    │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+    └ <pandas.core.indexing._iLocIndexer object at 0x00000261E6087900>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 568, in setitem
+    return self.apply("setitem", indexer=indexer, value=value)
+           │    │                        │              └ [0.5, 0.3, 0.2]
+           │    │                        └ (4, slice(0, 2, None))
+           │    └ <function BlockManager.apply at 0x00000261E2F8A0D0>
+           └ BlockManager
+             Items: RangeIndex(start=0, stop=6, step=1)
+             Axis 1: RangeIndex(start=0, stop=5, step=1)
+             ObjectBlock: slice(0, 6, ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\managers.py", line 427, in apply
+    applied = getattr(b, f)(**kwargs)
+                      │  │    └ {'indexer': (4, slice(0, 2, None)), 'value': [0.5, 0.3, 0.2]}
+                      │  └ 'setitem'
+                      └ ObjectBlock: slice(0, 6, 1), 6 x 5, dtype: object
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\internals\blocks.py", line 1035, in setitem
+    values[indexer] = value
+    │      │          └ [0.5, 0.3, 0.2]
+    │      └ (4, slice(0, 2, None))
+    └ array([[nan, nan, nan, nan, nan, '课程目标2'],
+             [nan, '客观评价', '教师评价', '学生自评', '达成度', '平均值'],
+             [nan, 0.640000000000000...
+
+ValueError: could not broadcast input array from shape (3,) into shape (2,)
+2022-06-15 11:23:12.420 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 11:23:12.592 | INFO     | src.get_info:operate_sheet:107 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3  课程目标4
+20152516  1.000  0.747  0.715  0.672
+20152878  0.800  0.530  0.936  0.824
+20162503  1.000  0.936  1.000  1.000
+20162504  0.936  0.805  1.000  0.728
+20162505  0.800  1.000  1.000  0.776
+20162506  0.600  0.779  0.904  1.000
+20162507  0.936  0.760  0.979  0.920
+20162508  1.000  0.832  0.915  0.984
+20162509  1.000  0.610  0.979  0.968
+20162511  0.936  0.819  1.000  1.000
+20162512  1.000  0.664  0.979  1.000
+20162513  1.000  0.851  0.957  0.632
+20162514  0.936  0.805  0.979  1.000
+20162515  0.936  0.936  0.800  0.832
+20162516  0.800  0.524  0.957  0.872
+20162517  1.000  0.734  0.861  1.000
+20162518  0.800  0.826  0.861  0.936
+20162519  0.936  0.670  0.957  0.984
+20162520  0.936  0.968  0.904  0.920
+20162522  0.800  0.632  0.904  1.000
+20162523  1.000  0.747  1.000  0.872
+20162524  1.000  0.781  0.957  0.848
+20162526  0.800  0.683  1.000  1.000
+20162527  1.000  0.728  1.000  1.000
+20162528  0.936  0.741  1.000  1.000
+20162529  0.800  0.813  1.000  0.920
+20162530  0.936  0.851  1.000  1.000
+20162531  1.000  0.851  1.000  1.000
+20162532  0.800  0.781  1.000  0.984
+20162533  1.000  0.709  0.957  1.000
+20162534  1.000  0.760  0.904  0.984
+20162536  0.936  0.968  0.957  0.984
+20162538  0.936  0.858  0.904  0.920
+20162539  0.936  0.981  0.957  1.000
+20162540  0.800  0.910  0.776  0.952
+20162541  0.936  0.838  0.957  0.832
+20162542  1.000  0.838  0.861  0.800
+20162543  1.000  0.655  1.000  1.000
+20162544  0.800  0.811  0.979  0.864
+平均值       0.917  0.788  0.943  0.923
+2022-06-15 11:23:12.592 | INFO     | src.get_info:operate_sheet:108 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3  课程目标4
+单项目标超过平均值人数     28   20.0   26.0   23.0
+单项目标达成人数        38   31.0   39.0   37.0
+单项目标未达成人数        1    8.0    0.0    2.0
+所有目标超过平均值人数      7    NaN    NaN    NaN
+所有目标均达成人数       28    NaN    NaN    NaN
+所有目标均未达成人数       0    NaN    NaN    NaN
+2022-06-15 11:23:12.592 | INFO     | src.get_info:operate_sheet:109 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2    课程目标3   课程目标4
+单项目标超过平均值人数  71.79%  51.28%   66.67%  58.97%
+单项目标达成人数     97.44%  79.49%  100.00%  94.87%
+单项目标未达成人数     2.56%  20.51%    0.00%   5.13%
+2022-06-15 11:23:12.592 | INFO     | src.get_info:operate_sheet:110 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    17.95%
+所有目标均达成人数      71.79%
+所有目标均未达成人数      0.00%
+dtype: object

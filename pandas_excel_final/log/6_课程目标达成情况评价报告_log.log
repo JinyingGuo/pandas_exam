@@ -1,0 +1,350 @@
+2022-06-14 17:33:07.455 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  \n教师评价  学生自评
+考核方式                                              
+课程目标1         0.06  0.12   0.0  0.42     0.2   0.2
+课程目标2         0.06   0.0  0.18  0.36     0.2   0.2
+课程目标3         0.06  0.18   0.0  0.36     0.2   0.2
+课程目标4         0.06  0.12  0.12   0.3     0.2   0.2
+2022-06-14 17:33:07.643 | DEBUG    | src.function:get_class_id:64 - 班级-学号处理异常
+2022-06-14 17:33:07.643 | ERROR    | src.function:get_class_id:65 - "['学生学号' '班级' '学生姓名'] not found in axis"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 课程目标达成情况评价报告
+                                                                    │        │             │               │     │                │            考核成绩法     0.6
+                                                                    │        │             │               │     │                │            \n教师评价    0.2
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告  随堂测验    作业    实验    考试  \n教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                              
+                                                                    │        │             │               │     │                  课程目标1         0.06  0.1...
+                                                                    │        │             │               │     └ ['学生自评']
+                                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               随堂测验           0.1   0.1   0.1   0.1
+                                                                    │        │               作业            ...
+                                                                    │        └ <function operate_sheet at 0x000001D4149DF9D0>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 90, in operate_sheet
+    class_id, everyclass_student, student_id, sheet_name, k, df_param, df_score = function.get_class_id(df_test_weight.index, sheet)
+                                                                                  │        │            │              │      └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                                                                  │        │            │              └ <pandas._libs.properties.AxisProperty object at 0x000001D47FEA49D0>
+                                                                                  │        │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                                  │        │              课程目标达成情况评价报告                        
+                                                                                  │        │              随堂测验           0.1   0.1   0.1   0.1
+                                                                                  │        │              作业            ...
+                                                                                  │        └ <function get_class_id at 0x000001D4149D9CA0>
+                                                                                  └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 61, in get_class_id
+    df_param, df_score = operate_exam(df_sheet, index_axis, student_id)
+                         │            │         │           └ [20182645, 20192017, 20192208, 20192209, 20192210, 20192211, 20192212, 20192213, 20192214, 20192215, 20192216, 20192217, 2019...
+                         │            │         └ 7
+                         │            └        参数设置 Unnamed: 1         大题   第一大题  Unnamed: 4  Unnamed: 5  Unnamed: 6  \
+                         │              0       NaN        NaN        NaN  （25分）     ...
+                         └ <function operate_exam at 0x000001D412198940>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 32, in operate_exam
+    df_score = df_score.drop(columns=['学生学号', '班级', '学生姓名'])
+               │        └ <function DataFrame.drop at 0x000001D47FEB5D30>
+               └ 7             班级      学生学号         姓名   分数  NaN  NaN  NaN  NaN  NaN  NaN  NaN  \
+                 学生学号                                        ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4308, in drop
+    return super().drop(
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4153, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          │   │          │       │           │             └ 'raise'
+          │   │          │       │           └ None
+          │   │          │       └ 'columns'
+          │   │          └ ['学生学号', '班级', '学生姓名']
+          │   └ <function NDFrame._drop_axis at 0x000001D47FE204C0>
+          └ 7             班级      学生学号         姓名   分数  NaN  NaN  NaN  NaN  NaN  NaN  NaN  \
+            学生学号                                        ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4207, in _drop_axis
+    raise KeyError(f"{labels} not found in axis")
+
+KeyError: "['学生学号' '班级' '学生姓名'] not found in axis"
+2022-06-14 17:34:55.822 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  \n教师评价  学生自评
+考核方式                                              
+课程目标1         0.06  0.12   0.0  0.42     0.2   0.2
+课程目标2         0.06   0.0  0.18  0.36     0.2   0.2
+课程目标3         0.06  0.18   0.0  0.36     0.2   0.2
+课程目标4         0.06  0.12  0.12   0.3     0.2   0.2
+2022-06-14 17:34:56.056 | DEBUG    | src.function:get_class_id:65 - 班级-学号处理异常
+2022-06-14 17:34:56.056 | ERROR    | src.function:get_class_id:66 - "['学生学号' '班级' '学生姓名'] not found in axis"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 课程目标达成情况评价报告
+                                                                    │        │             │               │     │                │            考核成绩法     0.6
+                                                                    │        │             │               │     │                │            \n教师评价    0.2
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告  随堂测验    作业    实验    考试  \n教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                              
+                                                                    │        │             │               │     │                  课程目标1         0.06  0.1...
+                                                                    │        │             │               │     └ ['学生自评']
+                                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               随堂测验           0.1   0.1   0.1   0.1
+                                                                    │        │               作业            ...
+                                                                    │        └ <function operate_sheet at 0x0000025F5C6109D0>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 90, in operate_sheet
+    class_id, everyclass_student, student_id, sheet_name, k, df_param, df_score = function.get_class_id(df_test_weight.index, sheet)
+                                                                                  │        │            │              │      └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                                                                  │        │            │              └ <pandas._libs.properties.AxisProperty object at 0x0000025F59BD49D0>
+                                                                                  │        │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                                  │        │              课程目标达成情况评价报告                        
+                                                                                  │        │              随堂测验           0.1   0.1   0.1   0.1
+                                                                                  │        │              作业            ...
+                                                                                  │        └ <function get_class_id at 0x0000025F5C60ACA0>
+                                                                                  └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 62, in get_class_id
+    df_param, df_score = operate_exam(df_sheet, index_axis, student_id)
+                         │            │         │           └ [20182645, 20192017, 20192208, 20192209, 20192210, 20192211, 20192212, 20192213, 20192214, 20192215, 20192216, 20192217, 2019...
+                         │            │         └ 7
+                         │            └        参数设置 Unnamed: 1         大题   第一大题  Unnamed: 4  Unnamed: 5  Unnamed: 6  \
+                         │              0       NaN        NaN        NaN  （25分）     ...
+                         └ <function operate_exam at 0x0000025F59EB9C10>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 33, in operate_exam
+    df_score = df_score.drop(columns=['学生学号', '班级', '学生姓名'])
+               │        └ <function DataFrame.drop at 0x0000025F59BE5D30>
+               └ 7             班级      学生学号         姓名   分数  NaN  NaN  NaN  NaN  NaN  NaN  NaN  \
+                 学生学号                                        ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4308, in drop
+    return super().drop(
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4153, in drop
+    obj = obj._drop_axis(labels, axis, level=level, errors=errors)
+          │   │          │       │           │             └ 'raise'
+          │   │          │       │           └ None
+          │   │          │       └ 'columns'
+          │   │          └ ['学生学号', '班级', '学生姓名']
+          │   └ <function NDFrame._drop_axis at 0x0000025F59B524C0>
+          └ 7             班级      学生学号         姓名   分数  NaN  NaN  NaN  NaN  NaN  NaN  NaN  \
+            学生学号                                        ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 4207, in _drop_axis
+    raise KeyError(f"{labels} not found in axis")
+
+KeyError: "['学生学号' '班级' '学生姓名'] not found in axis"
+2022-06-14 17:35:31.281 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  \n教师评价  学生自评
+考核方式                                              
+课程目标1         0.06  0.12   0.0  0.42     0.2   0.2
+课程目标2         0.06   0.0  0.18  0.36     0.2   0.2
+课程目标3         0.06  0.18   0.0  0.36     0.2   0.2
+课程目标4         0.06  0.12  0.12   0.3     0.2   0.2
+2022-06-14 17:35:31.562 | ERROR    | src.function:operate_object_sheet:133 - "None of ['题号'] are in the columns"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 课程目标达成情况评价报告
+                                                                    │        │             │               │     │                │            考核成绩法     0.6
+                                                                    │        │             │               │     │                │            \n教师评价    0.2
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告  随堂测验    作业    实验    考试  \n教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                              
+                                                                    │        │             │               │     │                  课程目标1         0.06  0.1...
+                                                                    │        │             │               │     └ ['学生自评']
+                                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               随堂测验           0.1   0.1   0.1   0.1
+                                                                    │        │               作业            ...
+                                                                    │        └ <function operate_sheet at 0x00000204539FF940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 92, in operate_sheet
+    object_all_params, object_all_scores = function.read_object_sheet(df_test_weight, sheet_name, student_id, k, df_param, df_score, sheet)
+                                           │        │                 │               │           │           │  │         │         └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                           │        │                 │               │           │           │  │         └          1    2    3    4    5   6    7    8    9    10   11   12   13   14  \
+                                           │        │                 │               │           │           │  │           学生学号                                          ...
+                                           │        │                 │               │           │           │  └        1    2    3    4    5   6   7   8   9   10   11   12   13   14  15  16  \
+                                           │        │                 │               │           │           │    题号                                          ...
+                                           │        │                 │               │           │           └ 3
+                                           │        │                 │               │           └ [20182645, 20192017, 20192208, 20192209, 20192210, 20192211, 20192212, 20192213, 20192214, 20192215, 20192216, 20192217, 2019...
+                                           │        │                 │               └ '考试'
+                                           │        │                 └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                           │        │                   课程目标达成情况评价报告                        
+                                           │        │                   随堂测验           0.1   0.1   0.1   0.1
+                                           │        │                   作业            ...
+                                           │        └ <function read_object_sheet at 0x00000204539FECA0>
+                                           └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 180, in read_object_sheet
+    object_all_param, object_all_scores = operate_object_sheet(object_evaluation, df_test_weight, student_id, k, df_param, df_score)
+                                          │                    │                  │               │           │  │         └          1    2    3    4    5   6    7    8    9    10   11   12   13   14  \
+                                          │                    │                  │               │           │  │           学生学号                                          ...
+                                          │                    │                  │               │           │  └        1    2    3    4    5   6   7   8   9   10   11   12   13   14  15  16  \
+                                          │                    │                  │               │           │    题号                                          ...
+                                          │                    │                  │               │           └ 3
+                                          │                    │                  │               └ [20182645, 20192017, 20192208, 20192209, 20192210, 20192211, 20192212, 20192213, 20192214, 20192215, 20192216, 20192217, 2019...
+                                          │                    │                  └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                          │                    │                    课程目标达成情况评价报告                        
+                                          │                    │                    随堂测验           0.1   0.1   0.1   0.1
+                                          │                    │                    作业            ...
+                                          │                    └ [参数             小题分数  10.0  10.0  2.0  8.0  10.0  10.0  2.0  8.0  5.0  5.0  \
+                                          │                      参数设置                                           ...
+                                          └ <function operate_object_sheet at 0x00000204539FE8B0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 115, in operate_object_sheet
+    object_data.set_index('题号', inplace=True)
+    │           └ <function DataFrame.set_index at 0x0000020451017280>
+    └ 参数             小题分数  10.0  10.0  2.0  8.0  10.0  10.0  2.0  8.0  5.0  5.0  \
+      参数设置                                            ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4727, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+
+KeyError: "None of ['题号'] are in the columns"
+2022-06-14 17:35:31.860 | ERROR    | src.function:operate_object_sheet:133 - "None of ['题号'] are in the columns"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 课程目标达成情况评价报告
+                                                                    │        │             │               │     │                │            考核成绩法     0.6
+                                                                    │        │             │               │     │                │            \n教师评价    0.2
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告  随堂测验    作业    实验    考试  \n教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                              
+                                                                    │        │             │               │     │                  课程目标1         0.06  0.1...
+                                                                    │        │             │               │     └ ['学生自评']
+                                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               随堂测验           0.1   0.1   0.1   0.1
+                                                                    │        │               作业            ...
+                                                                    │        └ <function operate_sheet at 0x00000204539FF940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 92, in operate_sheet
+    object_all_params, object_all_scores = function.read_object_sheet(df_test_weight, sheet_name, student_id, k, df_param, df_score, sheet)
+                                           │        │                 │               │           │           │  │         │         └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                           │        │                 │               │           │           │  │         └          1    2    3    4    5   6    7    8    9    10   11   12   13   14  \
+                                           │        │                 │               │           │           │  │           学生学号                                          ...
+                                           │        │                 │               │           │           │  └        1    2    3    4    5   6   7   8   9   10   11   12   13   14  15  16  \
+                                           │        │                 │               │           │           │    题号                                          ...
+                                           │        │                 │               │           │           └ 3
+                                           │        │                 │               │           └ [20182645, 20192017, 20192208, 20192209, 20192210, 20192211, 20192212, 20192213, 20192214, 20192215, 20192216, 20192217, 2019...
+                                           │        │                 │               └ '考试'
+                                           │        │                 └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                           │        │                   课程目标达成情况评价报告                        
+                                           │        │                   随堂测验           0.1   0.1   0.1   0.1
+                                           │        │                   作业            ...
+                                           │        └ <function read_object_sheet at 0x00000204539FECA0>
+                                           └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 180, in read_object_sheet
+    object_all_param, object_all_scores = operate_object_sheet(object_evaluation, df_test_weight, student_id, k, df_param, df_score)
+                                          │                    │                  │               │           │  │         └          1    2    3    4    5   6    7    8    9    10   11   12   13   14  \
+                                          │                    │                  │               │           │  │           学生学号                                          ...
+                                          │                    │                  │               │           │  └        1    2    3    4    5   6   7   8   9   10   11   12   13   14  15  16  \
+                                          │                    │                  │               │           │    题号                                          ...
+                                          │                    │                  │               │           └ 3
+                                          │                    │                  │               └ [20182645, 20192017, 20192208, 20192209, 20192210, 20192211, 20192212, 20192213, 20192214, 20192215, 20192216, 20192217, 2019...
+                                          │                    │                  └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                          │                    │                    课程目标达成情况评价报告                        
+                                          │                    │                    随堂测验           0.1   0.1   0.1   0.1
+                                          │                    │                    作业            ...
+                                          │                    └ [参数             小题分数  10.0  10.0  2.0  8.0  10.0  10.0  2.0  8.0  5.0  5.0  \
+                                          │                      参数设置                                           ...
+                                          └ <function operate_object_sheet at 0x00000204539FE8B0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 115, in operate_object_sheet
+    object_data.set_index('题号', inplace=True)
+    │           └ <function DataFrame.set_index at 0x0000020451017280>
+    └ 参数             小题分数   10  10.0  10.0  10.0  10.0  10.0  10.0  10.0  10.0  10.0
+      参数设置                                          ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4727, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+
+KeyError: "None of ['题号'] are in the columns"
+2022-06-14 17:35:32.125 | ERROR    | src.function:operate_object_sheet:133 - "None of ['题号'] are in the columns"
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 课程目标达成情况评价报告
+                                                                    │        │             │               │     │                │            考核成绩法     0.6
+                                                                    │        │             │               │     │                │            \n教师评价    0.2
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告  随堂测验    作业    实验    考试  \n教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                              
+                                                                    │        │             │               │     │                  课程目标1         0.06  0.1...
+                                                                    │        │             │               │     └ ['学生自评']
+                                                                    │        │             │               └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               随堂测验           0.1   0.1   0.1   0.1
+                                                                    │        │               作业            ...
+                                                                    │        └ <function operate_sheet at 0x00000204539FF940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 92, in operate_sheet
+    object_all_params, object_all_scores = function.read_object_sheet(df_test_weight, sheet_name, student_id, k, df_param, df_score, sheet)
+                                           │        │                 │               │           │           │  │         │         └ '..\\data\\6_课程目标达成情况评价报告.xls'
+                                           │        │                 │               │           │           │  │         └          1    2    3    4    5   6    7    8    9    10   11   12   13   14  \
+                                           │        │                 │               │           │           │  │           学生学号                                          ...
+                                           │        │                 │               │           │           │  └        1    2    3    4    5   6   7   8   9   10   11   12   13   14  15  16  \
+                                           │        │                 │               │           │           │    题号                                          ...
+                                           │        │                 │               │           │           └ 3
+                                           │        │                 │               │           └ [20182645, 20192017, 20192208, 20192209, 20192210, 20192211, 20192212, 20192213, 20192214, 20192215, 20192216, 20192217, 2019...
+                                           │        │                 │               └ '考试'
+                                           │        │                 └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                           │        │                   课程目标达成情况评价报告                        
+                                           │        │                   随堂测验           0.1   0.1   0.1   0.1
+                                           │        │                   作业            ...
+                                           │        └ <function read_object_sheet at 0x00000204539FECA0>
+                                           └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\function.py", line 180, in read_object_sheet
+    object_all_param, object_all_scores = operate_object_sheet(object_evaluation, df_test_weight, student_id, k, df_param, df_score)
+                                          │                    │                  │               │           │  │         └          1    2    3    4    5   6    7    8    9    10   11   12   13   14  \
+                                          │                    │                  │               │           │  │           学生学号                                          ...
+                                          │                    │                  │               │           │  └        1    2    3    4    5   6   7   8   9   10   11   12   13   14  15  16  \
+                                          │                    │                  │               │           │    题号                                          ...
+                                          │                    │                  │               │           └ 3
+                                          │                    │                  │               └ [20182645, 20192017, 20192208, 20192209, 20192210, 20192211, 20192212, 20192213, 20192214, 20192215, 20192216, 20192217, 2019...
+                                          │                    │                  └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                          │                    │                    课程目标达成情况评价报告                        
+                                          │                    │                    随堂测验           0.1   0.1   0.1   0.1
+                                          │                    │                    作业            ...
+                                          │                    └ [参数             小题分数  10.0  10.0  2.0  8.0  10.0  10.0  2.0  8.0  5.0  5.0  \
+                                          │                      参数设置                                           ...
+                                          └ <function operate_object_sheet at 0x00000204539FE8B0>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 115, in operate_object_sheet
+    object_data.set_index('题号', inplace=True)
+    │           └ <function DataFrame.set_index at 0x0000020451017280>
+    └ 参数             小题分数   20  20.0  5.0  15.0  20.0  5.0  15.0
+      参数设置                                                      
+      NaN    ...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 4727, in set_index
+    raise KeyError(f"None of {missing} are in the columns")
+
+KeyError: "None of ['题号'] are in the columns"

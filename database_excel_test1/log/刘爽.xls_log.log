@@ -1,0 +1,652 @@
+2022-05-11 21:01:49.530 | INFO     | __main__:<module>:12 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                                          
+课程目标1         0.06  0.12   0.0  0.42          0.2          0.2
+课程目标2         0.06   0.0  0.18  0.36          0.2          0.2
+课程目标3         0.06  0.18   0.0  0.36          0.2          0.2
+2022-05-11 21:01:50.058 | INFO     | __main__:<module>:21 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3
+66652645  0.634  0.920  0.628
+66666664  0.725  0.636  0.864
+66662208  0.543  0.663  0.492
+66662209  0.750  0.951  0.636
+66662210  0.743  0.845  0.804
+...         ...    ...    ...
+66662332  0.836  0.871  0.648
+66662333  0.730  0.709  0.564
+66662334  0.752  0.846  0.600
+66662335  0.828  0.821  0.592
+平均值       0.752  0.800  0.658
+
+[139 rows x 3 columns]
+2022-05-11 21:01:50.066 | INFO     | __main__:<module>:22 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3
+单项目标超过平均值人数     70   80.0   59.0
+单项目标达成人数       105  114.0   45.0
+单项目标未达成人数       33   24.0   93.0
+所有目标超过平均值人数     33    NaN    NaN
+所有目标均达成人数       38    NaN    NaN
+所有目标均未达成人数      12    NaN    NaN
+2022-05-11 21:01:50.070 | INFO     | __main__:<module>:23 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2   课程目标3
+单项目标超过平均值人数  50.72%  57.97%  42.75%
+单项目标达成人数     76.09%  82.61%  32.61%
+单项目标未达成人数    23.91%  17.39%  67.39%
+2022-05-11 21:01:50.072 | INFO     | __main__:<module>:24 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    23.91%
+所有目标均达成人数      27.54%
+所有目标均未达成人数      8.70%
+dtype: object
+2022-05-11 21:03:22.729 | INFO     | __main__:<module>:12 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                                          
+课程目标1         0.06  0.12   0.0  0.42          0.2          0.2
+课程目标2         0.06   0.0  0.18  0.36          0.2          0.2
+课程目标3         0.06  0.18   0.0  0.36          0.2          0.2
+2022-05-11 21:03:23.258 | INFO     | __main__:<module>:21 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3
+66652645  0.634  0.920  0.628
+66666664  0.725  0.636  0.864
+66662208  0.543  0.663  0.492
+66662209  0.750  0.951  0.636
+66662210  0.743  0.845  0.804
+...         ...    ...    ...
+66662332  0.836  0.871  0.648
+66662333  0.730  0.709  0.564
+66662334  0.752  0.846  0.600
+66662335  0.828  0.821  0.592
+平均值       0.752  0.800  0.658
+
+[139 rows x 3 columns]
+2022-05-11 21:03:23.262 | INFO     | __main__:<module>:22 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3
+单项目标超过平均值人数     70   80.0   59.0
+单项目标达成人数       105  114.0   45.0
+单项目标未达成人数       33   24.0   93.0
+所有目标超过平均值人数     33    NaN    NaN
+所有目标均达成人数       38    NaN    NaN
+所有目标均未达成人数      12    NaN    NaN
+2022-05-11 21:03:23.265 | INFO     | __main__:<module>:23 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2   课程目标3
+单项目标超过平均值人数  50.72%  57.97%  42.75%
+单项目标达成人数     76.09%  82.61%  32.61%
+单项目标未达成人数    23.91%  17.39%  67.39%
+2022-05-11 21:03:23.268 | INFO     | __main__:<module>:24 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    23.91%
+所有目标均达成人数      27.54%
+所有目标均未达成人数      8.70%
+dtype: object
+2022-05-11 21:04:22.916 | INFO     | __main__:<module>:12 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                                          
+课程目标1         0.06  0.12   0.0  0.42          0.2          0.2
+课程目标2         0.06   0.0  0.18  0.36          0.2          0.2
+课程目标3         0.06  0.18   0.0  0.36          0.2          0.2
+2022-05-11 21:04:23.449 | INFO     | __main__:<module>:21 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3
+66652645  0.634  0.920  0.628
+66666664  0.725  0.636  0.864
+66662208  0.543  0.663  0.492
+66662209  0.750  0.951  0.636
+66662210  0.743  0.845  0.804
+...         ...    ...    ...
+66662332  0.836  0.871  0.648
+66662333  0.730  0.709  0.564
+66662334  0.752  0.846  0.600
+66662335  0.828  0.821  0.592
+平均值       0.752  0.800  0.658
+
+[139 rows x 3 columns]
+2022-05-11 21:04:23.454 | INFO     | __main__:<module>:22 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3
+单项目标超过平均值人数     70   80.0   59.0
+单项目标达成人数       105  114.0   45.0
+单项目标未达成人数       33   24.0   93.0
+所有目标超过平均值人数     33    NaN    NaN
+所有目标均达成人数       38    NaN    NaN
+所有目标均未达成人数      12    NaN    NaN
+2022-05-11 21:04:23.457 | INFO     | __main__:<module>:23 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2   课程目标3
+单项目标超过平均值人数  50.72%  57.97%  42.75%
+单项目标达成人数     76.09%  82.61%  32.61%
+单项目标未达成人数    23.91%  17.39%  67.39%
+2022-05-11 21:04:23.460 | INFO     | __main__:<module>:24 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    23.91%
+所有目标均达成人数      27.54%
+所有目标均未达成人数      8.70%
+dtype: object
+2022-05-11 21:11:59.171 | DEBUG    | src.get_info:get_weight:86 - 获取权重矩阵
+2022-05-11 21:11:59.172 | INFO     | __main__:<module>:12 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                                          
+课程目标1         0.06  0.12   0.0  0.42          0.2          0.2
+课程目标2         0.06   0.0  0.18  0.36          0.2          0.2
+课程目标3         0.06  0.18   0.0  0.36          0.2          0.2
+2022-05-11 21:11:59.396 | DEBUG    | src.get_info:operate_id:91 - 对班级学号进行分组
+2022-05-11 21:11:59.626 | DEBUG    | src.get_info:read_sheet:115 - 进行达成度计算
+2022-05-11 21:11:59.676 | DEBUG    | src.to_function:count_class_avg_ach:67 - 班级平均分、达成度计算
+2022-05-11 21:11:59.699 | DEBUG    | src.function:static_data:287 - 统计计算
+2022-05-11 21:11:59.699 | INFO     | __main__:<module>:21 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3
+66652645  0.634  0.920  0.628
+66666664  0.725  0.636  0.864
+66662208  0.543  0.663  0.492
+66662209  0.750  0.951  0.636
+66662210  0.743  0.845  0.804
+...         ...    ...    ...
+66662332  0.836  0.871  0.648
+66662333  0.730  0.709  0.564
+66662334  0.752  0.846  0.600
+66662335  0.828  0.821  0.592
+平均值       0.752  0.800  0.658
+
+[139 rows x 3 columns]
+2022-05-11 21:11:59.703 | INFO     | __main__:<module>:22 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3
+单项目标超过平均值人数     70   80.0   59.0
+单项目标达成人数       105  114.0   45.0
+单项目标未达成人数       33   24.0   93.0
+所有目标超过平均值人数     33    NaN    NaN
+所有目标均达成人数       38    NaN    NaN
+所有目标均未达成人数      12    NaN    NaN
+2022-05-11 21:11:59.707 | INFO     | __main__:<module>:23 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2   课程目标3
+单项目标超过平均值人数  50.72%  57.97%  42.75%
+单项目标达成人数     76.09%  82.61%  32.61%
+单项目标未达成人数    23.91%  17.39%  67.39%
+2022-05-11 21:11:59.709 | INFO     | __main__:<module>:24 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    23.91%
+所有目标均达成人数      27.54%
+所有目标均未达成人数      8.70%
+dtype: object
+2022-05-11 21:12:38.867 | INFO     | __main__:<module>:12 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                                          
+课程目标1         0.06  0.12   0.0  0.42          0.2          0.2
+课程目标2         0.06   0.0  0.18  0.36          0.2          0.2
+课程目标3         0.06  0.18   0.0  0.36          0.2          0.2
+2022-05-11 21:12:39.392 | INFO     | __main__:<module>:21 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3
+66652645  0.634  0.920  0.628
+66666664  0.725  0.636  0.864
+66662208  0.543  0.663  0.492
+66662209  0.750  0.951  0.636
+66662210  0.743  0.845  0.804
+...         ...    ...    ...
+66662332  0.836  0.871  0.648
+66662333  0.730  0.709  0.564
+66662334  0.752  0.846  0.600
+66662335  0.828  0.821  0.592
+平均值       0.752  0.800  0.658
+
+[139 rows x 3 columns]
+2022-05-11 21:12:39.396 | INFO     | __main__:<module>:22 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3
+单项目标超过平均值人数     70   80.0   59.0
+单项目标达成人数       105  114.0   45.0
+单项目标未达成人数       33   24.0   93.0
+所有目标超过平均值人数     33    NaN    NaN
+所有目标均达成人数       38    NaN    NaN
+所有目标均未达成人数      12    NaN    NaN
+2022-05-11 21:12:39.400 | INFO     | __main__:<module>:23 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2   课程目标3
+单项目标超过平均值人数  50.72%  57.97%  42.75%
+单项目标达成人数     76.09%  82.61%  32.61%
+单项目标未达成人数    23.91%  17.39%  67.39%
+2022-05-11 21:12:39.403 | INFO     | __main__:<module>:24 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    23.91%
+所有目标均达成人数      27.54%
+所有目标均未达成人数      8.70%
+dtype: object
+2022-05-11 21:16:18.333 | INFO     | __main__:<module>:12 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                                          
+课程目标1         0.06  0.12   0.0  0.42          0.2          0.2
+课程目标2         0.06   0.0  0.18  0.36          0.2          0.2
+课程目标3         0.06  0.18   0.0  0.36          0.2          0.2
+2022-05-11 21:16:18.866 | INFO     | __main__:<module>:21 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3
+66652645  0.634  0.920  0.628
+66666664  0.725  0.636  0.864
+66662208  0.543  0.663  0.492
+66662209  0.750  0.951  0.636
+66662210  0.743  0.845  0.804
+...         ...    ...    ...
+66662332  0.836  0.871  0.648
+66662333  0.730  0.709  0.564
+66662334  0.752  0.846  0.600
+66662335  0.828  0.821  0.592
+平均值       0.752  0.800  0.658
+
+[139 rows x 3 columns]
+2022-05-11 21:16:18.871 | INFO     | __main__:<module>:22 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3
+单项目标超过平均值人数     70   80.0   59.0
+单项目标达成人数       105  114.0   45.0
+单项目标未达成人数       33   24.0   93.0
+所有目标超过平均值人数     33    NaN    NaN
+所有目标均达成人数       38    NaN    NaN
+所有目标均未达成人数      12    NaN    NaN
+2022-05-11 21:16:18.874 | INFO     | __main__:<module>:23 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2   课程目标3
+单项目标超过平均值人数  50.72%  57.97%  42.75%
+单项目标达成人数     76.09%  82.61%  32.61%
+单项目标未达成人数    23.91%  17.39%  67.39%
+2022-05-11 21:16:18.877 | INFO     | __main__:<module>:24 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    23.91%
+所有目标均达成人数      27.54%
+所有目标均未达成人数      8.70%
+dtype: object
+2022-05-12 09:49:05.041 | INFO     | src.main:<module>:12 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告  随堂测验    作业    实验    考试  达成度 （教师评价法）  达成度 （学生自评法）
+考核方式                                                          
+课程目标1         0.06  0.12   0.0  0.42          0.2          0.2
+课程目标2         0.06   0.0  0.18  0.36          0.2          0.2
+课程目标3         0.06  0.18   0.0  0.36          0.2          0.2
+2022-05-12 09:49:05.587 | INFO     | src.main:<module>:21 - 
+ 最终达成度：achieve
+          课程目标1  课程目标2  课程目标3
+66652645  0.634  0.920  0.628
+66666664  0.725  0.636  0.864
+66662208  0.543  0.663  0.492
+66662209  0.750  0.951  0.636
+66662210  0.743  0.845  0.804
+...         ...    ...    ...
+66662332  0.836  0.871  0.648
+66662333  0.730  0.709  0.564
+66662334  0.752  0.846  0.600
+66662335  0.828  0.821  0.592
+平均值       0.752  0.800  0.658
+
+[139 rows x 3 columns]
+2022-05-12 09:49:05.592 | INFO     | src.main:<module>:22 - 
+ 统计数据：static_final_data
+考核方式         课程目标1  课程目标2  课程目标3
+单项目标超过平均值人数     70   80.0   59.0
+单项目标达成人数       105  114.0   45.0
+单项目标未达成人数       33   24.0   93.0
+所有目标超过平均值人数     33    NaN    NaN
+所有目标均达成人数       38    NaN    NaN
+所有目标均未达成人数      12    NaN    NaN
+2022-05-12 09:49:05.595 | INFO     | src.main:<module>:23 - 
+ 统计数据：static_data_single_odd
+考核方式          课程目标1   课程目标2   课程目标3
+单项目标超过平均值人数  50.72%  57.97%  42.75%
+单项目标达成人数     76.09%  82.61%  32.61%
+单项目标未达成人数    23.91%  17.39%  67.39%
+2022-05-12 09:49:05.597 | INFO     | src.main:<module>:24 - 
+ 统计数据：static_data_all_odd
+所有目标超过平均值人数    23.91%
+所有目标均达成人数      27.54%
+所有目标均未达成人数      8.70%
+dtype: object
+2022-05-12 09:49:05.671 | DEBUG    | test_program:test_class_avg:12 - 
+正在执行测试模块-----班级平均分
+2022-05-12 09:49:05.976 | DEBUG    | test_program:test_class_avg:33 - 随堂测验  班级平均分测试通过
+2022-05-12 09:49:05.976 | DEBUG    | test_program:test_class_avg:33 - 作业  班级平均分测试通过
+2022-05-12 09:49:05.977 | DEBUG    | test_program:test_class_avg:33 - 实验  班级平均分测试通过
+2022-05-12 09:49:05.977 | DEBUG    | test_program:test_class_avg:33 - 考试  班级平均分测试通过
+2022-05-12 09:49:05.977 | DEBUG    | test_program:test_class_avg:33 - 达成度 （教师评价法）  班级平均分测试通过
+2022-05-12 09:49:05.978 | DEBUG    | test_program:test_class_avg:33 - 达成度 （学生自评法）  班级平均分测试通过
+2022-05-12 09:49:05.979 | DEBUG    | test_program:test_class_ach:37 - 
+正在执行测试模块-----班级达成度
+2022-05-12 09:49:06.328 | DEBUG    | test_program:test_class_ach:55 - 随堂测验  班级达成度测试通过
+2022-05-12 09:49:06.328 | DEBUG    | test_program:test_class_ach:55 - 作业  班级达成度测试通过
+2022-05-12 09:49:06.329 | DEBUG    | test_program:test_class_ach:55 - 实验  班级达成度测试通过
+2022-05-12 09:49:06.329 | DEBUG    | test_program:test_class_ach:55 - 考试  班级达成度测试通过
+2022-05-12 09:49:06.330 | DEBUG    | test_program:test_class_ach:55 - 达成度 （教师评价法）  班级达成度测试通过
+2022-05-12 09:49:06.330 | DEBUG    | test_program:test_class_ach:55 - 达成度 （学生自评法）  班级达成度测试通过
+2022-05-12 09:49:06.331 | DEBUG    | test_program:test_target_scores:59 - 
+正在执行测试模块-----各目标得分和达成度
+2022-05-12 09:49:06.561 | DEBUG    | test_program:test_target_scores:78 - 随堂测验  各目标得分、达成度测试通过
+2022-05-12 09:49:06.563 | DEBUG    | test_program:test_target_scores:78 - 作业  各目标得分、达成度测试通过
+2022-05-12 09:49:06.565 | DEBUG    | test_program:test_target_scores:78 - 实验  各目标得分、达成度测试通过
+2022-05-12 09:49:06.568 | DEBUG    | test_program:test_target_scores:78 - 考试  各目标得分、达成度测试通过
+2022-05-12 09:49:06.569 | DEBUG    | test_program:test_final_achieve:82 - 
+正在执行测试模块-----最终达成度
+2022-05-12 09:49:06.615 | DEBUG    | test_program:test_final_achieve:95 - 达成度测试通过
+2022-05-12 09:49:06.616 | DEBUG    | test_program:test_static:99 - 
+正在执行测试模块-----统计部分
+2022-05-12 09:49:06.667 | ERROR    | tests.test_get_data:get_static_data:132 - 出现异常
+Traceback (most recent call last):
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 3080, in get_loc
+    return self._engine.get_loc(casted_key)
+           │    │               └ '平均值'
+           │    └ <pandas._libs.properties.CachedProperty object at 0x0000018B6E1A1A40>
+           └ Index([], dtype='object')
+
+  File "pandas\_libs\index.pyx", line 70, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\index.pyx", line 101, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas\_libs\hashtable_class_helper.pxi", line 4554, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas\_libs\hashtable_class_helper.pxi", line 4562, in pandas._libs.hashtable.PyObjectHashTable.get_item
+
+KeyError: '平均值'
+
+
+The above exception was the direct cause of the following exception:
+
+
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/database_excel_test/tests/test_program.py", line 137, in <module>
+    pytest.main(['-vs'])
+    │      └ <function main at 0x0000018B4CE90550>
+    └ <module 'pytest' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\pytest\\__init__.py'>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\config\__init__.py", line 164, in main
+    ret: Union[ExitCode, int] = config.hook.pytest_cmdline_main(
+         │     │                │      │    └ <_HookCaller 'pytest_cmdline_main'>
+         │     │                │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x0000018B70EC4F10>
+         │     │                └ <_pytest.config.Config object at 0x0000018B70EC4760>
+         │     └ <enum 'ExitCode'>
+         └ typing.Union
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ True
+           │    │         │    │     │    │                └ {'config': <_pytest.config.Config object at 0x0000018B70EC4760>}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x0000018B4CC4B8B0>
+           │    │         │    │     └ <_HookCaller 'pytest_cmdline_main'>
+           │    │         │    └ 'pytest_cmdline_main'
+           │    │         └ <_HookCaller 'pytest_cmdline_main'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>>
+           └ <_HookCaller 'pytest_cmdline_main'>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'config': <_pytest.config.Config object at 0x0000018B70EC4760>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_pyte...
+           │    │               └ 'pytest_cmdline_main'
+           │    └ <function _multicall at 0x0000018B4CC42AF0>
+           └ <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<_pytest.config.Config object at 0x0000018B70EC4760>]
+          │         └ <function pytest_cmdline_main at 0x0000018B4CF60DC0>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_pytes...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\main.py", line 315, in pytest_cmdline_main
+    return wrap_session(config, _main)
+           │            │       └ <function _main at 0x0000018B4CF60E50>
+           │            └ <_pytest.config.Config object at 0x0000018B70EC4760>
+           └ <function wrap_session at 0x0000018B4CF60D30>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\main.py", line 268, in wrap_session
+    session.exitstatus = doit(config, session) or 0
+    │       │            │    │       └ <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=5>
+    │       │            │    └ <_pytest.config.Config object at 0x0000018B70EC4760>
+    │       │            └ <function _main at 0x0000018B4CF60E50>
+    │       └ <ExitCode.OK: 0>
+    └ <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=5>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\main.py", line 322, in _main
+    config.hook.pytest_runtestloop(session=session)
+    │      │    │                          └ <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=5>
+    │      │    └ <_HookCaller 'pytest_runtestloop'>
+    │      └ <_pytest.config.compat.PathAwareHookProxy object at 0x0000018B70EC4F10>
+    └ <_pytest.config.Config object at 0x0000018B70EC4760>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ True
+           │    │         │    │     │    │                └ {'session': <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=5>}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x0000018B4CC4B8B0>
+           │    │         │    │     └ <_HookCaller 'pytest_runtestloop'>
+           │    │         │    └ 'pytest_runtestloop'
+           │    │         └ <_HookCaller 'pytest_runtestloop'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>>
+           └ <_HookCaller 'pytest_runtestloop'>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'session': <Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=5>}
+           │    │               │          └ [<HookImpl plugin_name='main', plugin=<module '_pytest.main' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_pyte...
+           │    │               └ 'pytest_runtestloop'
+           │    └ <function _multicall at 0x0000018B4CC42AF0>
+           └ <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Session tests exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=5>]
+          │         └ <function pytest_runtestloop at 0x0000018B4CF60F70>
+          └ <HookImpl plugin_name='main', plugin=<module '_pytest.main' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_pytes...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\main.py", line 347, in pytest_runtestloop
+    item.config.hook.pytest_runtest_protocol(item=item, nextitem=nextitem)
+    │    │                                        │              └ None
+    │    │                                        └ <Function test_static>
+    │    └ <member 'config' of 'Node' objects>
+    └ <Function test_static>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ True
+           │    │         │    │     │    │                └ {'item': <Function test_static>, 'nextitem': None}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x0000018B4CC4B8B0>
+           │    │         │    │     └ <_HookCaller 'pytest_runtest_protocol'>
+           │    │         │    └ 'pytest_runtest_protocol'
+           │    │         └ <_HookCaller 'pytest_runtest_protocol'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>>
+           └ <_HookCaller 'pytest_runtest_protocol'>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'item': <Function test_static>, 'nextitem': None}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_...
+           │    │               └ 'pytest_runtest_protocol'
+           │    └ <function _multicall at 0x0000018B4CC42AF0>
+           └ <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_static>, None]
+          │         └ <function pytest_runtest_protocol at 0x0000018B4CF5DA60>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_p...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\runner.py", line 111, in pytest_runtest_protocol
+    runtestprotocol(item, nextitem=nextitem)
+    │               │              └ None
+    │               └ <Function test_static>
+    └ <function runtestprotocol at 0x0000018B4CF5DAF0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\runner.py", line 130, in runtestprotocol
+    reports.append(call_and_report(item, "call", log))
+    │       │      │               │             └ True
+    │       │      │               └ <Function test_static>
+    │       │      └ <function call_and_report at 0x0000018B4CF5DEE0>
+    │       └ <method 'append' of 'list' objects>
+    └ [<TestReport 'test_program.py::test_static' when='setup' outcome='passed'>]
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\runner.py", line 219, in call_and_report
+    call = call_runtest_hook(item, when, **kwds)
+           │                 │     │       └ {}
+           │                 │     └ 'call'
+           │                 └ <Function test_static>
+           └ <function call_runtest_hook at 0x0000018B4CF60040>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\runner.py", line 258, in call_runtest_hook
+    return CallInfo.from_call(
+           │        └ <classmethod object at 0x0000018B4CF61310>
+           └ <class '_pytest.runner.CallInfo'>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\runner.py", line 338, in from_call
+    result: Optional[TResult] = func()
+            │        │          └ <function call_runtest_hook.<locals>.<lambda> at 0x0000018B6E07B430>
+            │        └ +TResult
+            └ typing.Optional
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\runner.py", line 259, in <lambda>
+    lambda: ihook(item=item, **kwds), when=when, reraise=reraise
+            │          │       └ {}
+            │          └ <Function test_static>
+            └ <_HookCaller 'pytest_runtest_call'>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ False
+           │    │         │    │     │    │                └ {'item': <Function test_static>}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x0000018B4CC4B8B0>
+           │    │         │    │     └ <_HookCaller 'pytest_runtest_call'>
+           │    │         │    └ 'pytest_runtest_call'
+           │    │         └ <_HookCaller 'pytest_runtest_call'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>>
+           └ <_HookCaller 'pytest_runtest_call'>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ False
+           │    │               │          │        └ {'item': <Function test_static>}
+           │    │               │          └ [<HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_...
+           │    │               └ 'pytest_runtest_call'
+           │    └ <function _multicall at 0x0000018B4CC42AF0>
+           └ <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_static>]
+          │         └ <function pytest_runtest_call at 0x0000018B4CF5DCA0>
+          └ <HookImpl plugin_name='runner', plugin=<module '_pytest.runner' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_p...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\runner.py", line 166, in pytest_runtest_call
+    item.runtest()
+    │    └ <function Function.runtest at 0x0000018B4E7B5940>
+    └ <Function test_static>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\python.py", line 1761, in runtest
+    self.ihook.pytest_pyfunc_call(pyfuncitem=self)
+    │    │                                   └ <Function test_static>
+    │    └ <property object at 0x0000018B4CEB9310>
+    └ <Function test_static>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_hooks.py", line 265, in __call__
+    return self._hookexec(self.name, self.get_hookimpls(), kwargs, firstresult)
+           │    │         │    │     │    │                │       └ True
+           │    │         │    │     │    │                └ {'pyfuncitem': <Function test_static>}
+           │    │         │    │     │    └ <function _HookCaller.get_hookimpls at 0x0000018B4CC4B8B0>
+           │    │         │    │     └ <_HookCaller 'pytest_pyfunc_call'>
+           │    │         │    └ 'pytest_pyfunc_call'
+           │    │         └ <_HookCaller 'pytest_pyfunc_call'>
+           │    └ <bound method PluginManager._hookexec of <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>>
+           └ <_HookCaller 'pytest_pyfunc_call'>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_manager.py", line 80, in _hookexec
+    return self._inner_hookexec(hook_name, methods, kwargs, firstresult)
+           │    │               │          │        │       └ True
+           │    │               │          │        └ {'pyfuncitem': <Function test_static>}
+           │    │               │          └ [<HookImpl plugin_name='python', plugin=<module '_pytest.python' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_...
+           │    │               └ 'pytest_pyfunc_call'
+           │    └ <function _multicall at 0x0000018B4CC42AF0>
+           └ <_pytest.config.PytestPluginManager object at 0x0000018B4C5B20A0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pluggy\_callers.py", line 39, in _multicall
+    res = hook_impl.function(*args)
+          │         │         └ [<Function test_static>]
+          │         └ <function pytest_pyfunc_call at 0x0000018B4E78EEE0>
+          └ <HookImpl plugin_name='python', plugin=<module '_pytest.python' from 'D:\\anaconda3-5.3.0\\envs\\py38\\lib\\site-packages\\_p...
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\_pytest\python.py", line 192, in pytest_pyfunc_call
+    result = testfunction(**testargs)
+             │              └ {}
+             └ <function test_static at 0x0000018B70C6B670>
+
+  File "E:\python\2021.9.17\database_excel_test\tests\test_program.py", line 100, in test_static
+    static_final_data, static_data_single_odd, static_data_all_odd, count_data, count_data_single_odd, count_data_all_odd = test_get_data.get_static_data()
+                                                                                                                            │             └ <function get_static_data at 0x0000018B6E0483A0>
+                                                                                                                            └ <module 'tests.test_get_data' from 'E:\\python\\2021.9.17\\database_excel_test\\tests\\test_get_data.py'>
+
+> File "E:\python\2021.9.17\database_excel_test\tests\test_get_data.py", line 125, in get_static_data
+    count_data_all_odd = count_data_all_odd.loc[:, '平均值']
+                         │                  └ <property object at 0x0000018B6E35D630>
+                         └ Empty DataFrame
+                           Columns: []
+                           Index: [所有目标超过平均值人数, 所有目标均达成人数, 所有目标均未达成人数]
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 889, in __getitem__
+    return self._getitem_tuple(key)
+           │    │              └ (slice(None, None, None), '平均值')
+           │    └ <function _LocIndexer._getitem_tuple at 0x0000018B6E3729D0>
+           └ <pandas.core.indexing._LocIndexer object at 0x0000018B713BB7C0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1060, in _getitem_tuple
+    return self._getitem_lowerdim(tup)
+           │    │                 └ (slice(None, None, None), '平均值')
+           │    └ <function _LocationIndexer._getitem_lowerdim at 0x0000018B6E3720D0>
+           └ <pandas.core.indexing._LocIndexer object at 0x0000018B713BB7C0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 807, in _getitem_lowerdim
+    section = self._getitem_axis(key, axis=i)
+              │    │             │         └ 1
+              │    │             └ '平均值'
+              │    └ <function _LocIndexer._getitem_axis at 0x0000018B6E372B80>
+              └ <pandas.core.indexing._LocIndexer object at 0x0000018B713BB7C0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1124, in _getitem_axis
+    return self._get_label(key, axis=axis)
+           │    │          │         └ 1
+           │    │          └ '平均值'
+           │    └ <function _LocIndexer._get_label at 0x0000018B6E372A60>
+           └ <pandas.core.indexing._LocIndexer object at 0x0000018B713BB7C0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexing.py", line 1073, in _get_label
+    return self.obj.xs(label, axis=axis)
+           │    │      │           └ 1
+           │    │      └ '平均值'
+           │    └ <attribute 'obj' of 'pandas._libs.indexing.NDFrameIndexerBase' objects>
+           └ <pandas.core.indexing._LocIndexer object at 0x0000018B713BB7C0>
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\generic.py", line 3724, in xs
+    return self[key]
+           │    └ '平均值'
+           └ Empty DataFrame
+             Columns: []
+             Index: [所有目标超过平均值人数, 所有目标均达成人数, 所有目标均未达成人数]
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\frame.py", line 3024, in __getitem__
+    indexer = self.columns.get_loc(key)
+              │    │               └ '平均值'
+              │    └ <pandas._libs.properties.AxisProperty object at 0x0000018B6E557FD0>
+              └ Empty DataFrame
+                Columns: []
+                Index: [所有目标超过平均值人数, 所有目标均达成人数, 所有目标均未达成人数]
+
+  File "D:\anaconda3-5.3.0\envs\py38\lib\site-packages\pandas\core\indexes\base.py", line 3082, in get_loc
+    raise KeyError(key) from err
+                   └ '平均值'
+
+KeyError: '平均值'

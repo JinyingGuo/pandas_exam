@@ -1,0 +1,79 @@
+2022-06-15 08:14:00.683 | ERROR    | src.check_data:check_cover:42 - 课程目标达成情况报告页帧不存在【课程编号】，程序终止运行
+2022-06-15 08:14:19.733 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 08:14:19.795 | ERROR    | src.function:operate_exam:10 - 未找到班级列
+2022-06-15 08:14:19.795 | DEBUG    | src.function:get_class_id:64 - 班级-学号处理异常
+2022-06-15 08:14:19.795 | ERROR    | src.function:get_class_id:65 - cannot unpack non-iterable NoneType object
+Traceback (most recent call last):
+
+  File "E:/python/2021.9.17/pandas_excel/src/main.py", line 18, in <module>
+    final_target_achieve, new_path, student_id, k, object_all_out = get_info.operate_sheet(df_test_weight, file, df_index_values, df_weight, data_weight)
+                                                                    │        │             │               │     │                │          └ 考核成绩法    0.64
+                                                                    │        │             │               │     │                │            教师评价     0.16
+                                                                    │        │             │               │     │                │            学生自评      0.2
+                                                                    │        │             │               │     │                │            Name: 权重值, dtype: object
+                                                                    │        │             │               │     │                └ 课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+                                                                    │        │             │               │     │                  考核方式                                        
+                                                                    │        │             │               │     │                  课程目标1         0.32    0.0   0.32  0...
+                                                                    │        │             │               │     └ ['教师评价', '学生自评']
+                                                                    │        │             │               └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 .xls'
+                                                                    │        │             └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                    │        │               课程目标达成情况评价报告                        
+                                                                    │        │               报告             0.5   0.5   0.5   0.5
+                                                                    │        │               程序运行          ...
+                                                                    │        └ <function operate_sheet at 0x000001C883630940>
+                                                                    └ <module 'src.get_info' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\get_info.py'>
+
+  File "E:\python\2021.9.17\pandas_excel\src\get_info.py", line 90, in operate_sheet
+    class_id, everyclass_student, student_id, sheet_name, k, df_param, df_score = function.get_class_id(df_test_weight.index, sheet)
+                                                                                  │        │            │              │      └ '..\\data\\41-课程目标达成度评价报告-软件工程-工程技能培训160408 .xls'
+                                                                                  │        │            │              └ <pandas._libs.properties.AxisProperty object at 0x000001C880C059D0>
+                                                                                  │        │            └ 考核方式         课程目标1 课程目标2 课程目标3 课程目标4
+                                                                                  │        │              课程目标达成情况评价报告                        
+                                                                                  │        │              报告             0.5   0.5   0.5   0.5
+                                                                                  │        │              程序运行          ...
+                                                                                  │        └ <function get_class_id at 0x000001C88362DC10>
+                                                                                  └ <module 'src.function' from 'E:\\python\\2021.9.17\\pandas_excel\\src\\function.py'>
+
+> File "E:\python\2021.9.17\pandas_excel\src\function.py", line 61, in get_class_id
+    df_param, df_score = operate_exam(df_sheet, index_axis, student_id)
+                         │            │         │           └ []
+                         │            │         └ 'nan'
+                         │            └         参数设置 Unnamed: 1   答辩  Unnamed: 3  Unnamed: 4  Unnamed: 5    总分
+                         │              0         参数         题号    1         2.0         3.0  ...
+                         └ <function operate_exam at 0x000001C880EE98B0>
+
+TypeError: cannot unpack non-iterable NoneType object
+2022-06-15 08:19:09.259 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 08:19:09.336 | ERROR    | src.function:operate_exam:10 - 未找到班级列
+2022-06-15 08:19:37.660 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 08:19:37.713 | ERROR    | src.function:operate_exam:10 - 未找到班级信息
+2022-06-15 08:20:03.301 | INFO     | __main__:<module>:16 - 
+ 权重矩阵：df_weight
+课程目标达成情况评价报告    报告   程序运行     答辩  教师评价  学生自评
+考核方式                                        
+课程目标1         0.32    0.0   0.32  0.16   0.2
+课程目标2         0.32  0.192  0.128  0.16   0.2
+课程目标3         0.32    0.0   0.32  0.16   0.2
+课程目标4         0.32    0.0   0.32  0.16   0.2
+2022-06-15 08:20:03.363 | ERROR    | src.function:operate_exam:10 - 未找到班级信息，程序终止
